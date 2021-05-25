@@ -1,0 +1,29 @@
+.NewsItemBlock {
+  display: flex;
+}
+.NewsItemBlock .thumbnail {
+  margin-right: 1rem;
+}
+.NewsItemBlock .thumbnail img {
+  display: block;
+  width: 160px;
+  height: 100px;
+  object-fit: cover;
+}
+.NewsItemBlock .contents h2 {
+  margin: 0;
+}
+.NewsItemBlock .contents h2 a {
+  color: black;
+}
+.NewsItemBlock .contents p {
+  margin: 0;
+  line-height: 1.5;
+  margin-top: 0.5rem;
+  white-space: normal;
+}
+.NewsItemBlock + .NewsItemBlock {
+  margin-top: 3rem;
+}
+
+/*# sourceMappingURL=NewsList.css.map */

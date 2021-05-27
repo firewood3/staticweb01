@@ -2,38 +2,38 @@
   background: beige;
   height: 100vh;
 }
-.container .item {
+.container .article-box {
   width: 40px;
   height: 40px;
 }
-.container .item.item1 {
+.container .article-box.item1 {
   background: #fa5252;
 }
-.container .item.item2 {
+.container .article-box.item2 {
   background: #ef9a9a;
 }
-.container .item.item3 {
+.container .article-box.item3 {
   background: #fd7e14;
 }
-.container .item.item4 {
+.container .article-box.item4 {
   background: #fcc419;
 }
-.container .item.item5 {
+.container .article-box.item5 {
   background: #ffffb0;
 }
-.container .item.item6 {
+.container .article-box.item6 {
   background: #40c057;
 }
-.container .item.item7 {
+.container .article-box.item7 {
   background: #a5d6a7;
 }
-.container .item.item8 {
+.container .article-box.item8 {
   background: #339af0;
 }
-.container .item.item9 {
+.container .article-box.item9 {
   background: #5c7cfa;
 }
-.container .item.item10 {
+.container .article-box.item10 {
   background: #7950f2;
 }
 

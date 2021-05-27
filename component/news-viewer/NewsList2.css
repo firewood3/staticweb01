@@ -1,0 +1,78 @@
+.category-block {
+  display: flex;
+  width: 768px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+.category {
+  font-size: 1.125rem;
+  cursor: pointer;
+  /*pre 적힌 그대로 nowrap은 일자로 나타남*/
+  white-space: pre;
+  text-decoration: none;
+  color: inherit;
+  padding-bottom: 0.25rem;
+}
+.category + .category {
+  margin-left: 1rem;
+}
+.category:hover {
+  color: #495057;
+}
+.category.active {
+  font-weight: 600;
+  border-bottom: 2px solid #22b8cf;
+  color: #22b8cf;
+}
+.category.active:hover {
+  color: #3bc9db;
+}
+.article-list {
+  width: 768px;
+  margin: 0 auto;
+  margin-top: 2rem;
+  padding-bottom: 3rem;
+}
+.article-box {
+  display: flex;
+}
+.article-box + .article-box {
+  margin-top: 3rem;
+}
+.thumbnail {
+  margin-right: 1rem;
+}
+.thumbnail img {
+  margin: 0;
+  width: 160px;
+  height: 100px;
+  object-fit: cover;
+  display: block;
+}
+.contents h2 {
+  margin: 0;
+}
+.contents h2 a {
+  color: black;
+}
+.contents p {
+  margin: 0;
+  line-height: 1.5;
+  margin-top: 0.5rem;
+  white-space: normal;
+}
+
+@media screen and (max-width: 768px) {
+  .article-list {
+    width: 100%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .category-block {
+    width: 100%;
+    /* overflow-x를 auto로 하면 category-block이 overflow가 되었을때 해당 div의 x축에
+        scroll-bar가 나타나게 된다.
+    */
+    overflow-x: auto;
+  }
+}

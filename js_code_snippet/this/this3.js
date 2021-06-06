@@ -9,12 +9,12 @@ class Robot {
   }
 
   sayName2 = () => {
-    console.log(this)
+    console.log(this) // Robot
     console.log(this.name)
   }
 
   sayName3 = function () {
-    console.log(this)
+    console.log(this) // Robot
     console.log(this.name)
   }
 }

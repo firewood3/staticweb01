@@ -2,12 +2,14 @@ function Robot() {
   this.name = 'jin';
   const name = 'hong'
   function sayName() {
-    // console.log(this)
-    console.log(name)
-    console.log(this.name)
+    console.log(this);
+    console.log(name);
+    console.log(this.name);
   }
 
-  sayName(); // this는 글로벌
+  // new가 없을때 this는 글로벌
+  // new가 있을 때
+  sayName();
 
   return {
     name: 'james',
@@ -16,4 +18,4 @@ function Robot() {
 }
 
 const robot = Robot();
-robot.sayName()
+robot.sayName();

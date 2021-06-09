@@ -1,0 +1,2340 @@
+{
+  "result": "success",
+  "dgnsAskList": [
+    {
+      "dgnsAskId": 2,
+      "dgnsAskCont": "클렌징 후에, 아무것도 바르지 말고 2~3시간 후에 밝은 빛 아래서 거울을 보세요, 이마와 볼이 어떻게 보이고 느껴지나요?",
+      "dgnsTyCd": "OD",
+      "dgnsAskOrd": 1,
+      "dgnsAnsList": [
+        {
+          "dgnsAnsId": 1,
+          "dgnsAskId": 2,
+          "dgnsAnsCont": "매우 거칠고, 버석거리고 각질이 들떠 보입니다.",
+          "dgnsAnsOrd": 1,
+          "dgnsScore": 1.0
+        },
+        {
+          "dgnsAnsId": 2,
+          "dgnsAskId": 2,
+          "dgnsAnsCont": "당깁니다.",
+          "dgnsAnsOrd": 2,
+          "dgnsScore": 2.0
+        },
+        {
+          "dgnsAnsId": 3,
+          "dgnsAskId": 2,
+          "dgnsAnsCont": "당기지 않고 건조해 보이지 않고 번들거리지 않습니다.",
+          "dgnsAnsOrd": 3,
+          "dgnsScore": 3.0
+        },
+        {
+          "dgnsAnsId": 4,
+          "dgnsAskId": 2,
+          "dgnsAnsCont": "밝은 빛에 반사되는 듯이 번들거립니다.",
+          "dgnsAnsOrd": 4,
+          "dgnsScore": 4.0
+        }
+      ]
+    },
+    {
+      "dgnsAskId": 3,
+      "dgnsAskCont": "사진을 찍었을 때, 피부가 번들거리나요?",
+      "dgnsTyCd": "OD",
+      "dgnsAskOrd": 2,
+      "dgnsAnsList": [
+        {
+          "dgnsAnsId": 5,
+          "dgnsAskId": 3,
+          "dgnsAnsCont": "결코 그렇지 않습니다.",
+          "dgnsAnsOrd": 1,
+          "dgnsScore": 1.0
+        },
+        {
+          "dgnsAnsId": 6,
+          "dgnsAskId": 3,
+          "dgnsAnsCont": "때때로",
+          "dgnsAnsOrd": 2,
+          "dgnsScore": 2.0
+        },
+        {
+          "dgnsAnsId": 7,
+          "dgnsAskId": 3,
+          "dgnsAnsCont": "자주",
+          "dgnsAnsOrd": 3,
+          "dgnsScore": 3.0
+        },
+        {
+          "dgnsAnsId": 8,
+          "dgnsAskId": 3,
+          "dgnsAnsCont": "항상",
+          "dgnsAnsOrd": 4,
+          "dgnsScore": 4.0
+        }
+      ]
+    },
+    {
+      "dgnsAskId": 4,
+      "dgnsAskCont": "메이크업 파운데이션(파우더는 안 바른 상태)을 바른지 2~3시간 후에 메이크업이 어찌 보이나요?",
+      "dgnsTyCd": "OD",
+      "dgnsAskOrd": 3,
+      "dgnsAnsList": [
+        {
+          "dgnsAnsId": 10,
+          "dgnsAskId": 4,
+          "dgnsAnsCont": "약간 들떠 보이고 주름진 부분이 나타납니다.",
+          "dgnsAnsOrd": 1,
+          "dgnsScore": 1.0
+        },
+        {
+          "dgnsAnsId": 11,
+          "dgnsAskId": 4,
+          "dgnsAnsCont": "부드러워 보입니다",
+          "dgnsAnsOrd": 2,
+          "dgnsScore": 2.0
+        },
+        {
+          "dgnsAnsId": 12,
+          "dgnsAskId": 4,
+          "dgnsAnsCont": "번들거립니다.",
+          "dgnsAnsOrd": 3,
+          "dgnsScore": 3.0
+        },
+        {
+          "dgnsAnsId": 13,
+          "dgnsAskId": 4,
+          "dgnsAnsCont": "고정이 안되고 번들거립니다.",
+          "dgnsAnsOrd": 4,
+          "dgnsScore": 4.0
+        },
+        {
+          "dgnsAnsId": 14,
+          "dgnsAskId": 4,
+          "dgnsAnsCont": "페이셜 파운데이션을 바르지 않습니다.",
+          "dgnsAnsOrd": 5,
+          "dgnsScore": 2.5
+        }
+      ]
+    },
+    {
+      "dgnsAskId": 5,
+      "dgnsAskCont": "건조할 때 모이스처라이저나 선크림을 안 바르면 당신의 피부는 어떠한가요?",
+      "dgnsTyCd": "OD",
+      "dgnsAskOrd": 4,
+      "dgnsAnsList": [
+        {
+          "dgnsAnsId": 15,
+          "dgnsAskId": 5,
+          "dgnsAnsCont": "건조하고 갈라질 것 같습니다.",
+          "dgnsAnsOrd": 1,
+          "dgnsScore": 1.0
+        },
+        {
+          "dgnsAnsId": 16,
+          "dgnsAskId": 5,
+          "dgnsAnsCont": "당김을 느낍니다.",
+          "dgnsAnsOrd": 2,
+          "dgnsScore": 2.0
+        },
+        {
+          "dgnsAnsId": 17,
+          "dgnsAskId": 5,
+          "dgnsAnsCont": "정상적입니다.",
+          "dgnsAnsOrd": 3,
+          "dgnsScore": 3.0
+        },
+        {
+          "dgnsAnsId": 18,
+          "dgnsAskId": 5,
+          "dgnsAnsCont": "번들거리고 모이스처라이저가 필요 없습니다.",
+          "dgnsAnsOrd": 4,
+          "dgnsScore": 4.0
+        },
+        {
+          "dgnsAnsId": 19,
+          "dgnsAskId": 5,
+          "dgnsAnsCont": "잘 모르겠습니다.",
+          "dgnsAnsOrd": 5,
+          "dgnsScore": 2.5
+        }
+      ]
+    },
+    {
+      "dgnsAskId": 6,
+      "dgnsAskCont": "확대경을 보았을 때, 모공이 많고 사이즈가 핀의 끝보다도 더 커보이나요?",
+      "dgnsTyCd": "OD",
+      "dgnsAskOrd": 5,
+      "dgnsAnsList": [
+        {
+          "dgnsAnsId": 20,
+          "dgnsAskId": 6,
+          "dgnsAnsCont": "아니오",
+          "dgnsAnsOrd": 1,
+          "dgnsScore": 1.0
+        },
+        {
+          "dgnsAnsId": 21,
+          "dgnsAskId": 6,
+          "dgnsAnsCont": "티존이 좀 보입니다.(이마와 코)",
+          "dgnsAnsOrd": 2,
+          "dgnsScore": 2.0
+        },
+        {
+          "dgnsAnsId": 22,
+          "dgnsAskId": 6,
+          "dgnsAnsCont": "많이 보입니다.",
+          "dgnsAnsOrd": 3,
+          "dgnsScore": 3.0
+        },
+        {
+          "dgnsAnsId": 23,
+          "dgnsAskId": 6,
+          "dgnsAnsCont": "정말 엄청나게 보입니다.",
+          "dgnsAnsOrd": 4,
+          "dgnsScore": 4.0
+        },
+        {
+          "dgnsAnsId": 24,
+          "dgnsAskId": 6,
+          "dgnsAnsCont": "잘 모르겠습니다.(다시 보고도 정말 판별 안될 때 체크하세요)",
+          "dgnsAnsOrd": 5,
+          "dgnsScore": 2.5
+        }
+      ]
+    },
+    {
+      "dgnsAskId": 7,
+      "dgnsAskCont": "당신의 피부를 어떻게 생각하고 계십니까?",
+      "dgnsTyCd": "OD",
+      "dgnsAskOrd": 6,
+      "dgnsAnsList": [
+        {
+          "dgnsAnsId": 25,
+          "dgnsAskId": 7,
+          "dgnsAnsCont": "드라이",
+          "dgnsAnsOrd": 1,
+          "dgnsScore": 1.0
+        },
+        {
+          "dgnsAnsId": 26,
+          "dgnsAskId": 7,
+          "dgnsAnsCont": "노말",
+          "dgnsAnsOrd": 2,
+          "dgnsScore": 2.0
+        },
+        {
+          "dgnsAnsId": 27,
+          "dgnsAskId": 7,
+          "dgnsAnsCont": "복합",
+          "dgnsAnsOrd": 3,
+          "dgnsScore": 3.0
+        },
+        {
+          "dgnsAnsId": 28,
+          "dgnsAskId": 7,
+          "dgnsAnsCont": "오일리",
+          "dgnsAnsOrd": 4,
+          "dgnsScore": 4.0
+        }
+      ]
+    },
+    {
+      "dgnsAskId": 8,
+      "dgnsAskCont": "거품이 많이 나는 비누를 사용할 때 피부의 상태는 어떠한가요?",
+      "dgnsTyCd": "OD",
+      "dgnsAskOrd": 7,
+      "dgnsAnsList": [
+        {
+          "dgnsAnsId": 29,
+          "dgnsAskId": 8,
+          "dgnsAnsCont": "건조하고 갈라집니다.",
+          "dgnsAnsOrd": 1,
+          "dgnsScore": 1.0
+        },
+        {
+          "dgnsAnsId": 30,
+          "dgnsAskId": 8,
+          "dgnsAnsCont": "약간 건조하고 갈라지지는 않습니다.",
+          "dgnsAnsOrd": 2,
+          "dgnsScore": 2.0
+        },
+        {
+          "dgnsAnsId": 31,
+          "dgnsAskId": 8,
+          "dgnsAnsCont": "정상",
+          "dgnsAnsOrd": 3,
+          "dgnsScore": 3.0
+        },
+        {
+          "dgnsAnsId": 32,
+          "dgnsAskId": 8,
+          "dgnsAnsCont": "오일리",
+          "dgnsAnsOrd": 4,
+          "dgnsScore": 4.0
+        },
+        {
+          "dgnsAnsId": 33,
+          "dgnsAskId": 8,
+          "dgnsAnsCont": "비누나 어떤 거품나는 클랜저를 사용하지 않습니다. (만약 사용하지 않는 이유가 피부가 건조해져서 그렇다면 1번을 선택하십시오)",
+          "dgnsAnsOrd": 5,
+          "dgnsScore": 2.5
+        }
+      ]
+    },
+    {
+      "dgnsAskId": 9,
+      "dgnsAskCont": "모이스처라이저를 안 발랐을 때, 당신의 피부 상태는 당기나요?",
+      "dgnsTyCd": "OD",
+      "dgnsAskOrd": 8,
+      "dgnsAnsList": [
+        {
+          "dgnsAnsId": 34,
+          "dgnsAskId": 9,
+          "dgnsAnsCont": "항상",
+          "dgnsAnsOrd": 1,
+          "dgnsScore": 1.0
+        },
+        {
+          "dgnsAnsId": 35,
+          "dgnsAskId": 9,
+          "dgnsAnsCont": "때때로",
+          "dgnsAnsOrd": 2,
+          "dgnsScore": 2.0
+        },
+        {
+          "dgnsAnsId": 36,
+          "dgnsAskId": 9,
+          "dgnsAnsCont": "거의 그렇지 않습니다.",
+          "dgnsAnsOrd": 3,
+          "dgnsScore": 3.0
+        },
+        {
+          "dgnsAnsId": 37,
+          "dgnsAskId": 9,
+          "dgnsAnsCont": "결코 그렇지 않습니다.",
+          "dgnsAnsOrd": 4,
+          "dgnsScore": 4.0
+        }
+      ]
+    },
+    {
+      "dgnsAskId": 10,
+      "dgnsAskCont": "화이트헤드나 블랙헤드가 있는지요?",
+      "dgnsTyCd": "OD",
+      "dgnsAskOrd": 9,
+      "dgnsAnsList": [
+        {
+          "dgnsAnsId": 38,
+          "dgnsAskId": 10,
+          "dgnsAnsCont": "켤코 없습니다.",
+          "dgnsAnsOrd": 1,
+          "dgnsScore": 1.0
+        },
+        {
+          "dgnsAnsId": 39,
+          "dgnsAskId": 10,
+          "dgnsAnsCont": "거의 그렇지 않습니다.",
+          "dgnsAnsOrd": 2,
+          "dgnsScore": 2.0
+        },
+        {
+          "dgnsAnsId": 40,
+          "dgnsAskId": 10,
+          "dgnsAnsCont": "때때로 그렇습니다.",
+          "dgnsAnsOrd": 3,
+          "dgnsScore": 3.0
+        },
+        {
+          "dgnsAnsId": 41,
+          "dgnsAskId": 10,
+          "dgnsAnsCont": "항상 그렇습니다.",
+          "dgnsAnsOrd": 4,
+          "dgnsScore": 4.0
+        }
+      ]
+    },
+    {
+      "dgnsAskId": 11,
+      "dgnsAskCont": "얼굴에서 T-존이 오일리 합니까? (이마와 코)",
+      "dgnsTyCd": "OD",
+      "dgnsAskOrd": 10,
+      "dgnsAnsList": [
+        {
+          "dgnsAnsId": 42,
+          "dgnsAskId": 11,
+          "dgnsAnsCont": "결코 아닙니다.",
+          "dgnsAnsOrd": 1,
+          "dgnsScore": 1.0
+        },
+        {
+          "dgnsAnsId": 43,
+          "dgnsAskId": 11,
+          "dgnsAnsCont": "때때로",
+          "dgnsAnsOrd": 2,
+          "dgnsScore": 2.0
+        },
+        {
+          "dgnsAnsId": 44,
+          "dgnsAskId": 11,
+          "dgnsAnsCont": "자주",
+          "dgnsAnsOrd": 3,
+          "dgnsScore": 3.0
+        },
+        {
+          "dgnsAnsId": 45,
+          "dgnsAskId": 11,
+          "dgnsAnsCont": "항상",
+          "dgnsAnsOrd": 4,
+          "dgnsScore": 4.0
+        }
+      ]
+    },
+    {
+      "dgnsAskId": 12,
+      "dgnsAskCont": "모이스처라이저를 바르고 2~3시간 후에 당신의 볼은 어떻습니까?",
+      "dgnsTyCd": "OD",
+      "dgnsAskOrd": 11,
+      "dgnsAnsList": [
+        {
+          "dgnsAnsId": 46,
+          "dgnsAskId": 12,
+          "dgnsAnsCont": "매우 거칠고, 각질이 일어나거나 또는 갈질이 떨어집니다.",
+          "dgnsAnsOrd": 1,
+          "dgnsScore": 1.0
+        },
+        {
+          "dgnsAnsId": 47,
+          "dgnsAskId": 12,
+          "dgnsAnsCont": "부드럽습니다.",
+          "dgnsAnsOrd": 2,
+          "dgnsScore": 2.0
+        },
+        {
+          "dgnsAnsId": 48,
+          "dgnsAskId": 12,
+          "dgnsAnsCont": "조금 번들거림이 있습니다",
+          "dgnsAnsOrd": 3,
+          "dgnsScore": 3.0
+        },
+        {
+          "dgnsAnsId": 49,
+          "dgnsAskId": 12,
+          "dgnsAnsCont": "번들거리고 기르지고 또는 모이스처라이저를 사용하지 않습니다.",
+          "dgnsAnsOrd": 4,
+          "dgnsScore": 4.0
+        }
+      ]
+    },
+    {
+      "dgnsAskId": 13,
+      "dgnsAskCont": "얼굴에 붉은 여드름이 있습니까?",
+      "dgnsTyCd": "SR",
+      "dgnsAskOrd": 1,
+      "dgnsAnsList": [
+        {
+          "dgnsAnsId": 50,
+          "dgnsAskId": 13,
+          "dgnsAnsCont": "결코 없습니다.",
+          "dgnsAnsOrd": 1,
+          "dgnsScore": 1.0
+        },
+        {
+          "dgnsAnsId": 51,
+          "dgnsAskId": 13,
+          "dgnsAnsCont": "거의 없습니다.",
+          "dgnsAnsOrd": 2,
+          "dgnsScore": 2.0
+        },
+        {
+          "dgnsAnsId": 52,
+          "dgnsAskId": 13,
+          "dgnsAnsCont": "최소한 한달에 한번정도",
+          "dgnsAnsOrd": 3,
+          "dgnsScore": 3.0
+        },
+        {
+          "dgnsAnsId": 53,
+          "dgnsAskId": 13,
+          "dgnsAnsCont": "최소한 한주에 한번정도",
+          "dgnsAnsOrd": 4,
+          "dgnsScore": 4.0
+        }
+      ]
+    },
+    {
+      "dgnsAskId": 14,
+      "dgnsAskCont": "스킨케어 제품(클렌저, 모이스처라이저, 토너, 메이크업)을 적용했을 때 얼굴에 뭐가 나고 발진이나, 가렵고 쏘는 듯한 증상을 일으킵니까?",
+      "dgnsTyCd": "SR",
+      "dgnsAskOrd": 2,
+      "dgnsAnsList": [
+        {
+          "dgnsAnsId": 54,
+          "dgnsAskId": 14,
+          "dgnsAnsCont": "결코 없습니다.",
+          "dgnsAnsOrd": 1,
+          "dgnsScore": 1.0
+        },
+        {
+          "dgnsAnsId": 55,
+          "dgnsAskId": 14,
+          "dgnsAnsCont": "거의 없습니다.",
+          "dgnsAnsOrd": 2,
+          "dgnsScore": 2.0
+        },
+        {
+          "dgnsAnsId": 56,
+          "dgnsAskId": 14,
+          "dgnsAnsCont": "자주",
+          "dgnsAnsOrd": 3,
+          "dgnsScore": 3.0
+        },
+        {
+          "dgnsAnsId": 57,
+          "dgnsAskId": 14,
+          "dgnsAnsCont": "항상",
+          "dgnsAnsOrd": 4,
+          "dgnsScore": 4.0
+        },
+        {
+          "dgnsAnsId": 58,
+          "dgnsAskId": 14,
+          "dgnsAnsCont": "제품을 바르지 않습니다.",
+          "dgnsAnsOrd": 5,
+          "dgnsScore": 2.5
+        }
+      ]
+    },
+    {
+      "dgnsAskId": 15,
+      "dgnsAskCont": "여드름이나 로사시아로 진단받은 적이 있습니까?",
+      "dgnsTyCd": "SR",
+      "dgnsAskOrd": 3,
+      "dgnsAnsList": [
+        {
+          "dgnsAnsId": 59,
+          "dgnsAskId": 15,
+          "dgnsAnsCont": "아니오.",
+          "dgnsAnsOrd": 1,
+          "dgnsScore": 1.0
+        },
+        {
+          "dgnsAnsId": 60,
+          "dgnsAskId": 15,
+          "dgnsAnsCont": "친구나 아는 사람들이 내가 그렇다고 합니다.",
+          "dgnsAnsOrd": 2,
+          "dgnsScore": 2.0
+        },
+        {
+          "dgnsAnsId": 61,
+          "dgnsAskId": 15,
+          "dgnsAnsCont": "네",
+          "dgnsAnsOrd": 3,
+          "dgnsScore": 3.0
+        },
+        {
+          "dgnsAnsId": 62,
+          "dgnsAskId": 15,
+          "dgnsAnsCont": "네, 심각한정도",
+          "dgnsAnsOrd": 4,
+          "dgnsScore": 4.0
+        },
+        {
+          "dgnsAnsId": 63,
+          "dgnsAskId": 15,
+          "dgnsAnsCont": "모르겠습니다.",
+          "dgnsAnsOrd": 5,
+          "dgnsScore": 2.5
+        }
+      ]
+    },
+    {
+      "dgnsAskId": 16,
+      "dgnsAskCont": "선스크린이 당신의 피부를 가렵거나 타는 듯한 느낌, 여드름 유발이나 붉게 만듭니까?",
+      "dgnsTyCd": "SR",
+      "dgnsAskOrd": 4,
+      "dgnsAnsList": [
+        {
+          "dgnsAnsId": 64,
+          "dgnsAskId": 16,
+          "dgnsAnsCont": "결코 없습니다.",
+          "dgnsAnsOrd": 1,
+          "dgnsScore": 1.0
+        },
+        {
+          "dgnsAnsId": 65,
+          "dgnsAskId": 16,
+          "dgnsAnsCont": "거의 없습니다.",
+          "dgnsAnsOrd": 2,
+          "dgnsScore": 2.0
+        },
+        {
+          "dgnsAnsId": 66,
+          "dgnsAskId": 16,
+          "dgnsAnsCont": "자주",
+          "dgnsAnsOrd": 3,
+          "dgnsScore": 3.0
+        },
+        {
+          "dgnsAnsId": 67,
+          "dgnsAskId": 16,
+          "dgnsAnsCont": "항상",
+          "dgnsAnsOrd": 4,
+          "dgnsScore": 4.0
+        },
+        {
+          "dgnsAnsId": 68,
+          "dgnsAskId": 16,
+          "dgnsAnsCont": "잘 모르겠습니다.",
+          "dgnsAnsOrd": 5,
+          "dgnsScore": 2.5
+        }
+      ]
+    },
+    {
+      "dgnsAskId": 18,
+      "dgnsAskCont": "아토피, 습집 또는 접촉성 피부염으로 진단 받은 적이 있습니까?",
+      "dgnsTyCd": "SR",
+      "dgnsAskOrd": 6,
+      "dgnsAnsList": [
+        {
+          "dgnsAnsId": 70,
+          "dgnsAskId": 18,
+          "dgnsAnsCont": "아니오.",
+          "dgnsAnsOrd": 1,
+          "dgnsScore": 1.0
+        },
+        {
+          "dgnsAnsId": 71,
+          "dgnsAskId": 18,
+          "dgnsAnsCont": "친구들이 내가 그렇다고 이야기합니다.",
+          "dgnsAnsOrd": 2,
+          "dgnsScore": 2.0
+        },
+        {
+          "dgnsAnsId": 72,
+          "dgnsAskId": 18,
+          "dgnsAnsCont": "네",
+          "dgnsAnsOrd": 3,
+          "dgnsScore": 3.0
+        },
+        {
+          "dgnsAnsId": 73,
+          "dgnsAskId": 18,
+          "dgnsAnsCont": "네 심각한 상태",
+          "dgnsAnsOrd": 4,
+          "dgnsScore": 4.0
+        },
+        {
+          "dgnsAnsId": 74,
+          "dgnsAskId": 18,
+          "dgnsAnsCont": "잘 모르겠습니다.",
+          "dgnsAnsOrd": 5,
+          "dgnsScore": 2.5
+        }
+      ]
+    },
+    {
+      "dgnsAskId": 19,
+      "dgnsAskCont": "반지 낀 자리에 붉게 발진이 어느정도 납니까?",
+      "dgnsTyCd": "SR",
+      "dgnsAskOrd": 7,
+      "dgnsAnsList": [
+        {
+          "dgnsAnsId": 75,
+          "dgnsAskId": 19,
+          "dgnsAnsCont": "전혀 나지 않습니다.",
+          "dgnsAnsOrd": 1,
+          "dgnsScore": 1.0
+        },
+        {
+          "dgnsAnsId": 76,
+          "dgnsAskId": 19,
+          "dgnsAnsCont": "때때로.",
+          "dgnsAnsOrd": 2,
+          "dgnsScore": 2.0
+        },
+        {
+          "dgnsAnsId": 77,
+          "dgnsAskId": 19,
+          "dgnsAnsCont": "자주",
+          "dgnsAnsOrd": 3,
+          "dgnsScore": 3.0
+        },
+        {
+          "dgnsAnsId": 78,
+          "dgnsAskId": 19,
+          "dgnsAnsCont": "항상",
+          "dgnsAnsOrd": 4,
+          "dgnsScore": 4.0
+        },
+        {
+          "dgnsAnsId": 88,
+          "dgnsAskId": 19,
+          "dgnsAnsCont": "반지를 끼지 않습니다.",
+          "dgnsAnsOrd": 5,
+          "dgnsScore": 2.5
+        }
+      ]
+    },
+    {
+      "dgnsAskId": 20,
+      "dgnsAskCont": "향기나는 바블 바스, 마사지 오일, 바디로션이 당신의 피부에 뭐가 나게 하거나 간지럽거나 건조하게 합니까?",
+      "dgnsTyCd": "SR",
+      "dgnsAskOrd": 8,
+      "dgnsAnsList": [
+        {
+          "dgnsAnsId": 90,
+          "dgnsAskId": 20,
+          "dgnsAnsCont": "거의 없습니다.",
+          "dgnsAnsOrd": 2,
+          "dgnsScore": 2.0
+        },
+        {
+          "dgnsAnsId": 91,
+          "dgnsAskId": 20,
+          "dgnsAnsCont": "자주",
+          "dgnsAnsOrd": 3,
+          "dgnsScore": 3.0
+        },
+        {
+          "dgnsAnsId": 92,
+          "dgnsAskId": 20,
+          "dgnsAnsCont": "항상",
+          "dgnsAnsOrd": 4,
+          "dgnsScore": 4.0
+        },
+        {
+          "dgnsAnsId": 93,
+          "dgnsAskId": 20,
+          "dgnsAnsCont": "위와 같은 타입의 제품을 사용하지 않습니다. (만약 사용하지 않는 이유가 위의 현상 때문이라면 1번을 체크해주세요)",
+          "dgnsAnsOrd": 5,
+          "dgnsScore": 2.5
+        },
+        {
+          "dgnsAnsId": 89,
+          "dgnsAskId": 20,
+          "dgnsAnsCont": "결코 없습니다.",
+          "dgnsAnsOrd": 1,
+          "dgnsScore": 1.0
+        }
+      ]
+    },
+    {
+      "dgnsAskId": 21,
+      "dgnsAskCont": "호텔에서 제공되는 바디나 페이스 제품을 사용하고 나서 문제가 없습니까?",
+      "dgnsTyCd": "SR",
+      "dgnsAskOrd": 9,
+      "dgnsAnsList": [
+        {
+          "dgnsAnsId": 94,
+          "dgnsAskId": 21,
+          "dgnsAnsCont": "네.",
+          "dgnsAnsOrd": 1,
+          "dgnsScore": 1.0
+        },
+        {
+          "dgnsAnsId": 95,
+          "dgnsAskId": 21,
+          "dgnsAnsCont": "거의 없습니다.",
+          "dgnsAnsOrd": 2,
+          "dgnsScore": 2.0
+        },
+        {
+          "dgnsAnsId": 96,
+          "dgnsAskId": 21,
+          "dgnsAnsCont": "피부가 간지럽고 붉어지고 또는 뭐가 납니다",
+          "dgnsAnsOrd": 3,
+          "dgnsScore": 3.0
+        },
+        {
+          "dgnsAnsId": 97,
+          "dgnsAskId": 21,
+          "dgnsAnsCont": "사용하지 않습니다. 과거에 문제를 겪었기 때문입니다.",
+          "dgnsAnsOrd": 4,
+          "dgnsScore": 4.0
+        },
+        {
+          "dgnsAnsId": 98,
+          "dgnsAskId": 21,
+          "dgnsAnsCont": "제 것을 가지고 다녀서 잘 모르겠습니다.",
+          "dgnsAnsOrd": 5,
+          "dgnsScore": 2.5
+        }
+      ]
+    },
+    {
+      "dgnsAskId": 22,
+      "dgnsAskCont": "가족 중에 아토피, 습진, 알레르기, 천식을 가지고 있는 사람이 있습니까?",
+      "dgnsTyCd": "SR",
+      "dgnsAskOrd": 10,
+      "dgnsAnsList": [
+        {
+          "dgnsAnsId": 99,
+          "dgnsAskId": 22,
+          "dgnsAnsCont": "없습니다.",
+          "dgnsAnsOrd": 1,
+          "dgnsScore": 1.0
+        },
+        {
+          "dgnsAnsId": 100,
+          "dgnsAskId": 22,
+          "dgnsAnsCont": "한 명정도.",
+          "dgnsAnsOrd": 2,
+          "dgnsScore": 2.0
+        },
+        {
+          "dgnsAnsId": 101,
+          "dgnsAskId": 22,
+          "dgnsAnsCont": "여러 명",
+          "dgnsAnsOrd": 3,
+          "dgnsScore": 3.0
+        },
+        {
+          "dgnsAnsId": 102,
+          "dgnsAskId": 22,
+          "dgnsAnsCont": "많습니다.",
+          "dgnsAnsOrd": 4,
+          "dgnsScore": 4.0
+        },
+        {
+          "dgnsAnsId": 103,
+          "dgnsAskId": 22,
+          "dgnsAnsCont": "잘 모르겠습니다.",
+          "dgnsAnsOrd": 5,
+          "dgnsScore": 2.5
+        }
+      ]
+    },
+    {
+      "dgnsAskId": 23,
+      "dgnsAskCont": "향기나는 세제나 정전기 방지제를 사용한 옷을 입을 때 어떻습니까?",
+      "dgnsTyCd": "SR",
+      "dgnsAskOrd": 11,
+      "dgnsAnsList": [
+        {
+          "dgnsAnsId": 104,
+          "dgnsAskId": 23,
+          "dgnsAnsCont": "괜찮습니다.",
+          "dgnsAnsOrd": 1,
+          "dgnsScore": 1.0
+        },
+        {
+          "dgnsAnsId": 105,
+          "dgnsAskId": 23,
+          "dgnsAnsCont": "약간 드라이합니다.",
+          "dgnsAnsOrd": 2,
+          "dgnsScore": 2.0
+        },
+        {
+          "dgnsAnsId": 106,
+          "dgnsAskId": 23,
+          "dgnsAnsCont": "가렵습니다.",
+          "dgnsAnsOrd": 3,
+          "dgnsScore": 3.0
+        },
+        {
+          "dgnsAnsId": 107,
+          "dgnsAskId": 23,
+          "dgnsAnsCont": "가렵고 뭐가 납니다.",
+          "dgnsAnsOrd": 4,
+          "dgnsScore": 4.0
+        },
+        {
+          "dgnsAnsId": 108,
+          "dgnsAskId": 23,
+          "dgnsAnsCont": "사용하지 않거나 잘 모르겠습니다.",
+          "dgnsAnsOrd": 5,
+          "dgnsScore": 2.5
+        }
+      ]
+    },
+    {
+      "dgnsAskId": 24,
+      "dgnsAskCont": "운동, 스트레스, 감정적인 변화 등으로 얼굴과 목이 얼마나 자주 붉어집니까?",
+      "dgnsTyCd": "SR",
+      "dgnsAskOrd": 12,
+      "dgnsAnsList": [
+        {
+          "dgnsAnsId": 109,
+          "dgnsAskId": 24,
+          "dgnsAnsCont": "결코 없습니다.",
+          "dgnsAnsOrd": 1,
+          "dgnsScore": 1.0
+        },
+        {
+          "dgnsAnsId": 110,
+          "dgnsAskId": 24,
+          "dgnsAnsCont": "거의 없습니다.",
+          "dgnsAnsOrd": 2,
+          "dgnsScore": 2.0
+        },
+        {
+          "dgnsAnsId": 111,
+          "dgnsAskId": 24,
+          "dgnsAnsCont": "자주",
+          "dgnsAnsOrd": 3,
+          "dgnsScore": 3.0
+        },
+        {
+          "dgnsAnsId": 112,
+          "dgnsAskId": 24,
+          "dgnsAnsCont": "항상",
+          "dgnsAnsOrd": 4,
+          "dgnsScore": 4.0
+        }
+      ]
+    },
+    {
+      "dgnsAskId": 25,
+      "dgnsAskCont": "알코올을 마시면 얼마나 자주 피부가 붉어지거나 타는 듯한 느낌을 가집니까?",
+      "dgnsTyCd": "SR",
+      "dgnsAskOrd": 13,
+      "dgnsAnsList": [
+        {
+          "dgnsAnsId": 113,
+          "dgnsAskId": 25,
+          "dgnsAnsCont": "결코 없습니다.",
+          "dgnsAnsOrd": 1,
+          "dgnsScore": 1.0
+        },
+        {
+          "dgnsAnsId": 114,
+          "dgnsAskId": 25,
+          "dgnsAnsCont": "때때로.",
+          "dgnsAnsOrd": 2,
+          "dgnsScore": 2.0
+        },
+        {
+          "dgnsAnsId": 115,
+          "dgnsAskId": 25,
+          "dgnsAnsCont": "자주",
+          "dgnsAnsOrd": 3,
+          "dgnsScore": 3.0
+        },
+        {
+          "dgnsAnsId": 116,
+          "dgnsAskId": 25,
+          "dgnsAnsCont": "항상",
+          "dgnsAnsOrd": 4,
+          "dgnsScore": 4.0
+        },
+        {
+          "dgnsAnsId": 117,
+          "dgnsAskId": 25,
+          "dgnsAnsCont": "알코올을 마시지 않습니다.",
+          "dgnsAnsOrd": 5,
+          "dgnsScore": 2.5
+        }
+      ]
+    },
+    {
+      "dgnsAskId": 26,
+      "dgnsAskCont": "매운 음식이나 뜨거운 음식을 먹으면 얼마나 자주 붉어지거나 활 달아오릅니까?",
+      "dgnsTyCd": "SR",
+      "dgnsAskOrd": 14,
+      "dgnsAnsList": [
+        {
+          "dgnsAnsId": 118,
+          "dgnsAskId": 26,
+          "dgnsAnsCont": "결코 없습니다.",
+          "dgnsAnsOrd": 1,
+          "dgnsScore": 1.0
+        },
+        {
+          "dgnsAnsId": 119,
+          "dgnsAskId": 26,
+          "dgnsAnsCont": "거의 없습니다.",
+          "dgnsAnsOrd": 2,
+          "dgnsScore": 2.0
+        },
+        {
+          "dgnsAnsId": 120,
+          "dgnsAskId": 26,
+          "dgnsAnsCont": "자주",
+          "dgnsAnsOrd": 3,
+          "dgnsScore": 3.0
+        },
+        {
+          "dgnsAnsId": 121,
+          "dgnsAskId": 26,
+          "dgnsAnsCont": "항상",
+          "dgnsAnsOrd": 4,
+          "dgnsScore": 4.0
+        },
+        {
+          "dgnsAnsId": 122,
+          "dgnsAskId": 26,
+          "dgnsAnsCont": "반지를 끼지 않습니다.",
+          "dgnsAnsOrd": 5,
+          "dgnsScore": 2.5
+        }
+      ]
+    },
+    {
+      "dgnsAskId": 27,
+      "dgnsAskCont": "눈에 띄는 붉음증이나 혈관 활장된 부분이 얼굴과 코에 얼마나 있습니까?",
+      "dgnsTyCd": "SR",
+      "dgnsAskOrd": 15,
+      "dgnsAnsList": [
+        {
+          "dgnsAnsId": 123,
+          "dgnsAskId": 27,
+          "dgnsAnsCont": "없습니다.",
+          "dgnsAnsOrd": 1,
+          "dgnsScore": 1.0
+        },
+        {
+          "dgnsAnsId": 124,
+          "dgnsAskId": 27,
+          "dgnsAnsCont": "거의 없습니다.(코를 포함해서 1~3 부분)",
+          "dgnsAnsOrd": 2,
+          "dgnsScore": 2.0
+        },
+        {
+          "dgnsAnsId": 125,
+          "dgnsAskId": 27,
+          "dgnsAnsCont": "약간 있습니다. (4~6부분 코를 포함해서)",
+          "dgnsAnsOrd": 3,
+          "dgnsScore": 3.0
+        },
+        {
+          "dgnsAnsId": 126,
+          "dgnsAskId": 27,
+          "dgnsAnsCont": "많습니다.(코를 포함해서 7부분이상)",
+          "dgnsAnsOrd": 4,
+          "dgnsScore": 4.0
+        }
+      ]
+    },
+    {
+      "dgnsAskId": 28,
+      "dgnsAskCont": "사진 찍을 때 얼굴이 붉습니까?",
+      "dgnsTyCd": "SR",
+      "dgnsAskOrd": 16,
+      "dgnsAnsList": [
+        {
+          "dgnsAnsId": 127,
+          "dgnsAskId": 28,
+          "dgnsAnsCont": "결코 없습니다. 또는 그런 때를 본 적이 없습니다.",
+          "dgnsAnsOrd": 1,
+          "dgnsScore": 1.0
+        },
+        {
+          "dgnsAnsId": 128,
+          "dgnsAskId": 28,
+          "dgnsAnsCont": "때때로.",
+          "dgnsAnsOrd": 2,
+          "dgnsScore": 2.0
+        },
+        {
+          "dgnsAnsId": 129,
+          "dgnsAskId": 28,
+          "dgnsAnsCont": "자주",
+          "dgnsAnsOrd": 3,
+          "dgnsScore": 3.0
+        },
+        {
+          "dgnsAnsId": 130,
+          "dgnsAskId": 28,
+          "dgnsAnsCont": "항상",
+          "dgnsAnsOrd": 4,
+          "dgnsScore": 4.0
+        }
+      ]
+    },
+    {
+      "dgnsAskId": 29,
+      "dgnsAskCont": "실제로 선번(sunburn)을 입지 않았는데도 사람들이 그렇게 이야기합니까?",
+      "dgnsTyCd": "SR",
+      "dgnsAskOrd": 17,
+      "dgnsAnsList": [
+        {
+          "dgnsAnsId": 131,
+          "dgnsAskId": 29,
+          "dgnsAnsCont": "결코 없습니다. ",
+          "dgnsAnsOrd": 1,
+          "dgnsScore": 1.0
+        },
+        {
+          "dgnsAnsId": 132,
+          "dgnsAskId": 29,
+          "dgnsAnsCont": "때때로.",
+          "dgnsAnsOrd": 2,
+          "dgnsScore": 2.0
+        },
+        {
+          "dgnsAnsId": 133,
+          "dgnsAskId": 29,
+          "dgnsAnsCont": "자주",
+          "dgnsAnsOrd": 3,
+          "dgnsScore": 3.0
+        },
+        {
+          "dgnsAnsId": 134,
+          "dgnsAskId": 29,
+          "dgnsAnsCont": "항상",
+          "dgnsAnsOrd": 4,
+          "dgnsScore": 4.0
+        },
+        {
+          "dgnsAnsId": 135,
+          "dgnsAskId": 29,
+          "dgnsAnsCont": "항상 선번(sunburn)을 입습니다.",
+          "dgnsAnsOrd": 5,
+          "dgnsScore": 2.5
+        }
+      ]
+    },
+    {
+      "dgnsAskId": 30,
+      "dgnsAskCont": "여드름이나 피부속에 파고드는 헤어가 난 후에 어둡고 갈색이거나 블랫스팟이 생깁니가?",
+      "dgnsTyCd": "PN",
+      "dgnsAskOrd": 1,
+      "dgnsAnsList": [
+        {
+          "dgnsAnsId": 136,
+          "dgnsAskId": 30,
+          "dgnsAnsCont": "없거나 본적 없습니다",
+          "dgnsAnsOrd": 1,
+          "dgnsScore": 1.0
+        },
+        {
+          "dgnsAnsId": 137,
+          "dgnsAskId": 30,
+          "dgnsAnsCont": "때때로",
+          "dgnsAnsOrd": 2,
+          "dgnsScore": 2.0
+        },
+        {
+          "dgnsAnsId": 138,
+          "dgnsAskId": 30,
+          "dgnsAnsCont": "자주.",
+          "dgnsAnsOrd": 3,
+          "dgnsScore": 3.0
+        },
+        {
+          "dgnsAnsId": 139,
+          "dgnsAskId": 30,
+          "dgnsAnsCont": "항상.",
+          "dgnsAnsOrd": 4,
+          "dgnsScore": 4.0
+        },
+        {
+          "dgnsAnsId": 140,
+          "dgnsAskId": 30,
+          "dgnsAnsCont": "여드름이나 피부속으로 파고드는 헤어가 없다.",
+          "dgnsAnsOrd": 5,
+          "dgnsScore": 2.5
+        }
+      ]
+    },
+    {
+      "dgnsAskId": 31,
+      "dgnsAskCont": "무엇에 비었을 때, 어둡거나 붉은기가 얼마나 오래도록 남아있습니까?",
+      "dgnsTyCd": "PN",
+      "dgnsAskOrd": 2,
+      "dgnsAnsList": [
+        {
+          "dgnsAnsId": 141,
+          "dgnsAskId": 31,
+          "dgnsAnsCont": "없거나 본적 없습니다",
+          "dgnsAnsOrd": 1,
+          "dgnsScore": 1.0
+        },
+        {
+          "dgnsAnsId": 142,
+          "dgnsAskId": 31,
+          "dgnsAnsCont": "한 주",
+          "dgnsAnsOrd": 2,
+          "dgnsScore": 2.0
+        },
+        {
+          "dgnsAnsId": 143,
+          "dgnsAskId": 31,
+          "dgnsAnsCont": "몇 주",
+          "dgnsAnsOrd": 3,
+          "dgnsScore": 3.0
+        },
+        {
+          "dgnsAnsId": 144,
+          "dgnsAskId": 31,
+          "dgnsAnsCont": "여러 달",
+          "dgnsAnsOrd": 4,
+          "dgnsScore": 4.0
+        }
+      ]
+    },
+    {
+      "dgnsAskId": 32,
+      "dgnsAskCont": "임신했을 때나 피임약 복용 시, 호르몬 대체요법시 얼마나 많은 과색소 침착된 구역이 있었나요?",
+      "dgnsTyCd": "PN",
+      "dgnsAskOrd": 3,
+      "dgnsAnsList": [
+        {
+          "dgnsAnsId": 145,
+          "dgnsAskId": 32,
+          "dgnsAnsCont": "없습니다.",
+          "dgnsAnsOrd": 1,
+          "dgnsScore": 1.0
+        },
+        {
+          "dgnsAnsId": 146,
+          "dgnsAskId": 32,
+          "dgnsAnsCont": "한 구역",
+          "dgnsAnsOrd": 2,
+          "dgnsScore": 2.0
+        },
+        {
+          "dgnsAnsId": 147,
+          "dgnsAskId": 32,
+          "dgnsAnsCont": "여러 구역",
+          "dgnsAnsOrd": 3,
+          "dgnsScore": 3.0
+        },
+        {
+          "dgnsAnsId": 148,
+          "dgnsAskId": 32,
+          "dgnsAnsCont": "엄청 많음",
+          "dgnsAnsOrd": 4,
+          "dgnsScore": 4.0
+        },
+        {
+          "dgnsAnsId": 149,
+          "dgnsAskId": 32,
+          "dgnsAnsCont": "이 질문은 나에게 해당이 안됨 (남자이거나 임신한적, 피임약복용한적, 호르몬 대체요법을 한전이 없다, 또는 다크스팟이 생긴 적이 없다)",
+          "dgnsAnsOrd": 5,
+          "dgnsScore": 2.5
+        }
+      ]
+    },
+    {
+      "dgnsAskId": 33,
+      "dgnsAskCont": "윗입술이나 양 볼에 어떤 어두운 부분이 있습니까? 또는 과거에 있어던 적이 있어서 제거했습니까?",
+      "dgnsTyCd": "PN",
+      "dgnsAskOrd": 4,
+      "dgnsAnsList": [
+        {
+          "dgnsAnsId": 150,
+          "dgnsAskId": 33,
+          "dgnsAnsCont": "없습니다",
+          "dgnsAnsOrd": 1,
+          "dgnsScore": 1.0
+        },
+        {
+          "dgnsAnsId": 151,
+          "dgnsAskId": 33,
+          "dgnsAnsCont": "잘 모르겠습니다.",
+          "dgnsAnsOrd": 2,
+          "dgnsScore": 2.0
+        },
+        {
+          "dgnsAnsId": 152,
+          "dgnsAskId": 33,
+          "dgnsAnsCont": "약간 보입니다.",
+          "dgnsAnsOrd": 3,
+          "dgnsScore": 3.0
+        },
+        {
+          "dgnsAnsId": 153,
+          "dgnsAskId": 33,
+          "dgnsAnsCont": "여러 부분 보입니다.",
+          "dgnsAnsOrd": 4,
+          "dgnsScore": 4.0
+        }
+      ]
+    },
+    {
+      "dgnsAskId": 34,
+      "dgnsAskCont": "햇빛을 보고 돌아다닐 때 피부 위에 있는 어두운 패치같은 부분들이 더 심해집니까?",
+      "dgnsTyCd": "PN",
+      "dgnsAskOrd": 5,
+      "dgnsAnsList": [
+        {
+          "dgnsAnsId": 154,
+          "dgnsAskId": 34,
+          "dgnsAnsCont": "어두운 패치같은 부위가 없습니다.",
+          "dgnsAnsOrd": 1,
+          "dgnsScore": 1.0
+        },
+        {
+          "dgnsAnsId": 155,
+          "dgnsAskId": 34,
+          "dgnsAnsCont": "모름",
+          "dgnsAnsOrd": 2,
+          "dgnsScore": 2.0
+        },
+        {
+          "dgnsAnsId": 156,
+          "dgnsAskId": 34,
+          "dgnsAnsCont": "약간 심해짐",
+          "dgnsAnsOrd": 3,
+          "dgnsScore": 3.0
+        },
+        {
+          "dgnsAnsId": 157,
+          "dgnsAskId": 34,
+          "dgnsAnsCont": "많이 심해짐.",
+          "dgnsAnsOrd": 4,
+          "dgnsScore": 4.0
+        },
+        {
+          "dgnsAnsId": 158,
+          "dgnsAskId": 34,
+          "dgnsAnsCont": "선크림을 매일 바르고 햇빛을 보지 않습니다 (만약 다크패치가 생기거나 주근깨가 생길까봐 항상 선크림을 바른다면 4번으로 체크하세요.)",
+          "dgnsAnsOrd": 5,
+          "dgnsScore": 2.5
+        }
+      ]
+    },
+    {
+      "dgnsAskId": 35,
+      "dgnsAskCont": "기미, 좀 옅거나 어두운 브라운색 또는 그레이 패치가 있다고 진단 받은 적이 있나요?",
+      "dgnsTyCd": "PN",
+      "dgnsAskOrd": 6,
+      "dgnsAnsList": [
+        {
+          "dgnsAnsId": 159,
+          "dgnsAskId": 35,
+          "dgnsAnsCont": "없습니다.",
+          "dgnsAnsOrd": 1,
+          "dgnsScore": 1.0
+        },
+        {
+          "dgnsAnsId": 160,
+          "dgnsAskId": 35,
+          "dgnsAnsCont": "그런 적이 있지만 지금은 없습니다.",
+          "dgnsAnsOrd": 2,
+          "dgnsScore": 2.0
+        },
+        {
+          "dgnsAnsId": 161,
+          "dgnsAskId": 35,
+          "dgnsAnsCont": "지금도 있습니다.",
+          "dgnsAnsOrd": 3,
+          "dgnsScore": 3.0
+        },
+        {
+          "dgnsAnsId": 162,
+          "dgnsAskId": 35,
+          "dgnsAnsCont": "심각하게 많습니다.",
+          "dgnsAnsOrd": 4,
+          "dgnsScore": 4.0
+        },
+        {
+          "dgnsAnsId": 163,
+          "dgnsAskId": 35,
+          "dgnsAnsCont": "잘 모르겠습니다.",
+          "dgnsAnsOrd": 5,
+          "dgnsScore": 2.5
+        }
+      ]
+    },
+    {
+      "dgnsAskId": 36,
+      "dgnsAskCont": "얼굴, 가슴, 등 또는 팔에 작은 브라운 스팟들을 가지고 있거나 가졌던 적이 있습니까?",
+      "dgnsTyCd": "PN",
+      "dgnsAskOrd": 7,
+      "dgnsAnsList": [
+        {
+          "dgnsAnsId": 164,
+          "dgnsAskId": 36,
+          "dgnsAnsCont": "없습니다.",
+          "dgnsAnsOrd": 1,
+          "dgnsScore": 1.0
+        },
+        {
+          "dgnsAnsId": 165,
+          "dgnsAskId": 36,
+          "dgnsAnsCont": "약간 있습니다.(1-5)",
+          "dgnsAnsOrd": 2,
+          "dgnsScore": 2.0
+        },
+        {
+          "dgnsAnsId": 166,
+          "dgnsAskId": 36,
+          "dgnsAnsCont": "많이 있습니다.(6-15)",
+          "dgnsAnsOrd": 3,
+          "dgnsScore": 3.0
+        },
+        {
+          "dgnsAnsId": 167,
+          "dgnsAskId": 36,
+          "dgnsAnsCont": "엄청 많습니다.(16 이상)",
+          "dgnsAnsOrd": 4,
+          "dgnsScore": 4.0
+        }
+      ]
+    },
+    {
+      "dgnsAskId": 37,
+      "dgnsAskCont": "몇 달 동안 처음으로 햇빛에 노출되었을 때 피부는 어떻습니까?",
+      "dgnsTyCd": "PN",
+      "dgnsAskOrd": 8,
+      "dgnsAnsList": [
+        {
+          "dgnsAnsId": 168,
+          "dgnsAskId": 37,
+          "dgnsAnsCont": "선번(sunburn)만 됩니다.",
+          "dgnsAnsOrd": 1,
+          "dgnsScore": 1.0
+        },
+        {
+          "dgnsAnsId": 169,
+          "dgnsAskId": 37,
+          "dgnsAnsCont": "선번 되고 나서 어두워집니다.",
+          "dgnsAnsOrd": 2,
+          "dgnsScore": 2.0
+        },
+        {
+          "dgnsAnsId": 170,
+          "dgnsAskId": 37,
+          "dgnsAnsCont": "점점 어두워집니다.",
+          "dgnsAnsOrd": 3,
+          "dgnsScore": 3.0
+        },
+        {
+          "dgnsAnsId": 171,
+          "dgnsAskId": 37,
+          "dgnsAnsCont": "내 피부는 검다 또는 검어 졌다는 것을 잘 모르겠습니다. (만약 햇빛에 노출이 되지 않는다면 어린시절을 경험을 생각해 보십시오)",
+          "dgnsAnsOrd": 4,
+          "dgnsScore": 4.0
+        }
+      ]
+    },
+    {
+      "dgnsAskId": 38,
+      "dgnsAskCont": "몇일동안 지속적으로 햇볕을 본다면 무슨 일이 일어납니까?",
+      "dgnsTyCd": "PN",
+      "dgnsAskOrd": 9,
+      "dgnsAnsList": [
+        {
+          "dgnsAnsId": 172,
+          "dgnsAskId": 38,
+          "dgnsAnsCont": "선번(sunburn)과 물집, 그러나 피부색은 변화 없습니다.",
+          "dgnsAnsOrd": 1,
+          "dgnsScore": 1.0
+        },
+        {
+          "dgnsAnsId": 173,
+          "dgnsAskId": 38,
+          "dgnsAnsCont": "내 피부는 좀더 어두워집니다.",
+          "dgnsAnsOrd": 2,
+          "dgnsScore": 2.0
+        },
+        {
+          "dgnsAnsId": 174,
+          "dgnsAskId": 38,
+          "dgnsAnsCont": "내 피부는 많이 어두워집니다.",
+          "dgnsAnsOrd": 3,
+          "dgnsScore": 3.0
+        },
+        {
+          "dgnsAnsId": 175,
+          "dgnsAskId": 38,
+          "dgnsAnsCont": "내 피부는 이미 검다 또는 검어졌다는 것을 잘 모르겠습니다.",
+          "dgnsAnsOrd": 4,
+          "dgnsScore": 4.0
+        },
+        {
+          "dgnsAnsId": 176,
+          "dgnsAskId": 38,
+          "dgnsAnsCont": "잘 모르겠습니다. (만약 햇빛에 노출이 되지 않는다면 어린시절의 경험을 생각해 보십시오)",
+          "dgnsAnsOrd": 5,
+          "dgnsScore": 2.5
+        }
+      ]
+    },
+    {
+      "dgnsAskId": 39,
+      "dgnsAskCont": "원래 머리색은 무슨 색 입니까?",
+      "dgnsTyCd": "PN",
+      "dgnsAskOrd": 10,
+      "dgnsAnsList": [
+        {
+          "dgnsAnsId": 177,
+          "dgnsAskId": 39,
+          "dgnsAnsCont": "금발",
+          "dgnsAnsOrd": 1,
+          "dgnsScore": 1.0
+        },
+        {
+          "dgnsAnsId": 178,
+          "dgnsAskId": 39,
+          "dgnsAnsCont": "브라운",
+          "dgnsAnsOrd": 2,
+          "dgnsScore": 2.0
+        },
+        {
+          "dgnsAnsId": 179,
+          "dgnsAskId": 39,
+          "dgnsAnsCont": "블랙",
+          "dgnsAnsOrd": 3,
+          "dgnsScore": 3.0
+        },
+        {
+          "dgnsAnsId": 180,
+          "dgnsAskId": 39,
+          "dgnsAnsCont": "레드",
+          "dgnsAnsOrd": 4,
+          "dgnsScore": 4.0
+        }
+      ]
+    },
+    {
+      "dgnsAskId": 40,
+      "dgnsAskCont": "얼굴에 주름이 있습니까?",
+      "dgnsTyCd": "WT",
+      "dgnsAskOrd": 1,
+      "dgnsAnsList": [
+        {
+          "dgnsAnsId": 181,
+          "dgnsAskId": 40,
+          "dgnsAnsCont": "아니요, 웃거나 찡그리거나 눈썹을 들어올려도 생기지 않습니다.",
+          "dgnsAnsOrd": 1,
+          "dgnsScore": 1.0
+        },
+        {
+          "dgnsAnsId": 182,
+          "dgnsAskId": 40,
+          "dgnsAnsCont": "표정을 지을 때만 생깁니다.",
+          "dgnsAnsOrd": 2,
+          "dgnsScore": 2.0
+        },
+        {
+          "dgnsAnsId": 183,
+          "dgnsAskId": 40,
+          "dgnsAnsCont": "표정을 지을 때도 생기도 표정을 짓지 않아도 주름이 좀 있습니다.",
+          "dgnsAnsOrd": 3,
+          "dgnsScore": 3.0
+        },
+        {
+          "dgnsAnsId": 184,
+          "dgnsAskId": 40,
+          "dgnsAnsCont": "어떤 표정도 짓고 있지 않아도 주름들이 있습니다.",
+          "dgnsAnsOrd": 4,
+          "dgnsScore": 4.0
+        }
+      ]
+    },
+    {
+      "dgnsAskId": 41,
+      "dgnsAskCont": "당신의 어머니의 피부 나이는 얼마로 보이십니까?",
+      "dgnsTyCd": "WT",
+      "dgnsAskOrd": 2,
+      "dgnsAnsList": [
+        {
+          "dgnsAnsId": 185,
+          "dgnsAskId": 41,
+          "dgnsAnsCont": "그녀의 나이보다 5년에서 10년 어려 보입니다.",
+          "dgnsAnsOrd": 1,
+          "dgnsScore": 1.0
+        },
+        {
+          "dgnsAnsId": 186,
+          "dgnsAskId": 41,
+          "dgnsAnsCont": "그대로의 나이로 보입니다.",
+          "dgnsAnsOrd": 2,
+          "dgnsScore": 2.0
+        },
+        {
+          "dgnsAnsId": 187,
+          "dgnsAskId": 41,
+          "dgnsAnsCont": "5년정도 더 나이 들어 보입니다.",
+          "dgnsAnsOrd": 3,
+          "dgnsScore": 3.0
+        },
+        {
+          "dgnsAnsId": 188,
+          "dgnsAskId": 41,
+          "dgnsAnsCont": "5년이상 더 나이 들어 보입니다.",
+          "dgnsAnsOrd": 4,
+          "dgnsScore": 4.0
+        },
+        {
+          "dgnsAnsId": 189,
+          "dgnsAskId": 41,
+          "dgnsAnsCont": "적용할 수 있는 문제가 아닙니다.(입양, 또는 전혀 기억이 안 남)",
+          "dgnsAnsOrd": 5,
+          "dgnsScore": 2.5
+        }
+      ]
+    },
+    {
+      "dgnsAskId": 42,
+      "dgnsAskCont": "당신의 아버지의 피부 나이는 얼마로 보이십니까?",
+      "dgnsTyCd": "WT",
+      "dgnsAskOrd": 3,
+      "dgnsAnsList": [
+        {
+          "dgnsAnsId": 190,
+          "dgnsAskId": 42,
+          "dgnsAnsCont": "그녀의 나이보다 5년에서 10년 어려 보입니다.",
+          "dgnsAnsOrd": 1,
+          "dgnsScore": 1.0
+        },
+        {
+          "dgnsAnsId": 191,
+          "dgnsAskId": 42,
+          "dgnsAnsCont": "그대로의 나이로 보입니다.",
+          "dgnsAnsOrd": 2,
+          "dgnsScore": 2.0
+        },
+        {
+          "dgnsAnsId": 192,
+          "dgnsAskId": 42,
+          "dgnsAnsCont": "5년정도 더 나이 들어 보입니다.",
+          "dgnsAnsOrd": 3,
+          "dgnsScore": 3.0
+        },
+        {
+          "dgnsAnsId": 193,
+          "dgnsAskId": 42,
+          "dgnsAnsCont": "5년이상 더 나이 들어 보입니다.",
+          "dgnsAnsOrd": 4,
+          "dgnsScore": 4.0
+        },
+        {
+          "dgnsAnsId": 194,
+          "dgnsAskId": 42,
+          "dgnsAnsCont": "적용할 수 있는 문제가 아닙니다.(입양, 또는 전혀 기억이 안 남)",
+          "dgnsAnsOrd": 5,
+          "dgnsScore": 2.5
+        }
+      ]
+    },
+    {
+      "dgnsAskId": 43,
+      "dgnsAskCont": "당신의 외할머니의 피부 나이는 얼마로 보이십니까?",
+      "dgnsTyCd": "WT",
+      "dgnsAskOrd": 4,
+      "dgnsAnsList": [
+        {
+          "dgnsAnsId": 195,
+          "dgnsAskId": 43,
+          "dgnsAnsCont": "그녀의 나이보다 5년에서 10년 어려 보입니다.",
+          "dgnsAnsOrd": 1,
+          "dgnsScore": 1.0
+        },
+        {
+          "dgnsAnsId": 196,
+          "dgnsAskId": 43,
+          "dgnsAnsCont": "그대로의 나이로 보입니다.",
+          "dgnsAnsOrd": 2,
+          "dgnsScore": 2.0
+        },
+        {
+          "dgnsAnsId": 197,
+          "dgnsAskId": 43,
+          "dgnsAnsCont": "5년정도 더 나이 들어 보입니다.",
+          "dgnsAnsOrd": 3,
+          "dgnsScore": 3.0
+        },
+        {
+          "dgnsAnsId": 198,
+          "dgnsAskId": 43,
+          "dgnsAnsCont": "5년이상 더 나이 들어 보입니다.",
+          "dgnsAnsOrd": 4,
+          "dgnsScore": 4.0
+        },
+        {
+          "dgnsAnsId": 199,
+          "dgnsAskId": 43,
+          "dgnsAnsCont": "적용할 수 있는 문제가 아닙니다.(입양, 또는 전혀 기억이 안 남)",
+          "dgnsAnsOrd": 5,
+          "dgnsScore": 2.5
+        }
+      ]
+    },
+    {
+      "dgnsAskId": 44,
+      "dgnsAskCont": "당신의 외할아버지 피부 나이는 얼마로 보이십니까?",
+      "dgnsTyCd": "WT",
+      "dgnsAskOrd": 5,
+      "dgnsAnsList": [
+        {
+          "dgnsAnsId": 200,
+          "dgnsAskId": 44,
+          "dgnsAnsCont": "그녀의 나이보다 5년에서 10년 어려 보입니다.",
+          "dgnsAnsOrd": 1,
+          "dgnsScore": 1.0
+        },
+        {
+          "dgnsAnsId": 201,
+          "dgnsAskId": 44,
+          "dgnsAnsCont": "그대로의 나이로 보입니다.",
+          "dgnsAnsOrd": 2,
+          "dgnsScore": 2.0
+        },
+        {
+          "dgnsAnsId": 202,
+          "dgnsAskId": 44,
+          "dgnsAnsCont": "5년정도 더 나이 들어 보입니다.",
+          "dgnsAnsOrd": 3,
+          "dgnsScore": 3.0
+        },
+        {
+          "dgnsAnsId": 203,
+          "dgnsAskId": 44,
+          "dgnsAnsCont": "5년이상 더 나이 들어 보입니다.",
+          "dgnsAnsOrd": 4,
+          "dgnsScore": 4.0
+        },
+        {
+          "dgnsAnsId": 204,
+          "dgnsAskId": 44,
+          "dgnsAnsCont": "적용할 수 있는 문제가 아닙니다.(입양, 또는 전혀 기억이 안 남)",
+          "dgnsAnsOrd": 5,
+          "dgnsScore": 2.5
+        }
+      ]
+    },
+    {
+      "dgnsAskId": 45,
+      "dgnsAskCont": "당신의 친할머니 피부 나이는 얼마로 보이십니까?",
+      "dgnsTyCd": "WT",
+      "dgnsAskOrd": 6,
+      "dgnsAnsList": [
+        {
+          "dgnsAnsId": 205,
+          "dgnsAskId": 45,
+          "dgnsAnsCont": "그녀의 나이보다 5년에서 10년 어려 보입니다.",
+          "dgnsAnsOrd": 1,
+          "dgnsScore": 1.0
+        },
+        {
+          "dgnsAnsId": 206,
+          "dgnsAskId": 45,
+          "dgnsAnsCont": "그대로의 나이로 보입니다.",
+          "dgnsAnsOrd": 2,
+          "dgnsScore": 2.0
+        },
+        {
+          "dgnsAnsId": 207,
+          "dgnsAskId": 45,
+          "dgnsAnsCont": "5년정도 더 나이 들어 보입니다.",
+          "dgnsAnsOrd": 3,
+          "dgnsScore": 3.0
+        },
+        {
+          "dgnsAnsId": 208,
+          "dgnsAskId": 45,
+          "dgnsAnsCont": "5년이상 더 나이 들어 보입니다.",
+          "dgnsAnsOrd": 4,
+          "dgnsScore": 4.0
+        },
+        {
+          "dgnsAnsId": 209,
+          "dgnsAskId": 45,
+          "dgnsAnsCont": "적용할 수 있는 문제가 아닙니다.(입양, 또는 전혀 기억이 안 남)",
+          "dgnsAnsOrd": 5,
+          "dgnsScore": 2.5
+        }
+      ]
+    },
+    {
+      "dgnsAskId": 46,
+      "dgnsAskCont": "당신의 친할아버지 피부 나이는 얼마로 보이십니까?",
+      "dgnsTyCd": "WT",
+      "dgnsAskOrd": 7,
+      "dgnsAnsList": [
+        {
+          "dgnsAnsId": 210,
+          "dgnsAskId": 46,
+          "dgnsAnsCont": "그녀의 나이보다 5년에서 10년 어려 보입니다.",
+          "dgnsAnsOrd": 1,
+          "dgnsScore": 1.0
+        },
+        {
+          "dgnsAnsId": 211,
+          "dgnsAskId": 46,
+          "dgnsAnsCont": "그대로의 나이로 보입니다.",
+          "dgnsAnsOrd": 2,
+          "dgnsScore": 2.0
+        },
+        {
+          "dgnsAnsId": 212,
+          "dgnsAskId": 46,
+          "dgnsAnsCont": "5년정도 더 나이 들어 보입니다.",
+          "dgnsAnsOrd": 3,
+          "dgnsScore": 3.0
+        },
+        {
+          "dgnsAnsId": 213,
+          "dgnsAskId": 46,
+          "dgnsAnsCont": "5년이상 더 나이 들어 보입니다.",
+          "dgnsAnsOrd": 4,
+          "dgnsScore": 4.0
+        },
+        {
+          "dgnsAnsId": 214,
+          "dgnsAskId": 46,
+          "dgnsAnsCont": "적용할 수 있는 문제가 아닙니다.(입양, 또는 전혀 기억이 안 남)",
+          "dgnsAnsOrd": 5,
+          "dgnsScore": 2.5
+        }
+      ]
+    },
+    {
+      "dgnsAskId": 47,
+      "dgnsAskCont": "살면서 2주 이상 피부를 태닝했던 적이 있습니까? 그렇다면 몇 번이나 그렇게 하셨습니까? 꼭 해변이 아니어도 테니스, 낚시, 골프, 스키 등의 외부 운동들도 포함됩니다.",
+      "dgnsTyCd": "WT",
+      "dgnsAskOrd": 8,
+      "dgnsAnsList": [
+        {
+          "dgnsAnsId": 215,
+          "dgnsAskId": 47,
+          "dgnsAnsCont": "없다.",
+          "dgnsAnsOrd": 1,
+          "dgnsScore": 1.0
+        },
+        {
+          "dgnsAnsId": 216,
+          "dgnsAskId": 47,
+          "dgnsAnsCont": "1~5년 정도",
+          "dgnsAnsOrd": 2,
+          "dgnsScore": 2.0
+        },
+        {
+          "dgnsAnsId": 217,
+          "dgnsAskId": 47,
+          "dgnsAnsCont": "5~10년 정도",
+          "dgnsAnsOrd": 3,
+          "dgnsScore": 3.0
+        },
+        {
+          "dgnsAnsId": 218,
+          "dgnsAskId": 47,
+          "dgnsAnsCont": "10년 이상",
+          "dgnsAnsOrd": 4,
+          "dgnsScore": 4.0
+        }
+      ]
+    },
+    {
+      "dgnsAskId": 48,
+      "dgnsAskCont": "살면서 시즌에 따라서 2주 이상 태닝 프로그램을 진행한 적이 있습니까?",
+      "dgnsTyCd": "WT",
+      "dgnsAskOrd": 9,
+      "dgnsAnsList": [
+        {
+          "dgnsAnsId": 219,
+          "dgnsAskId": 48,
+          "dgnsAnsCont": "없다.",
+          "dgnsAnsOrd": 1,
+          "dgnsScore": 1.0
+        },
+        {
+          "dgnsAnsId": 220,
+          "dgnsAskId": 48,
+          "dgnsAnsCont": "1~5년 정도",
+          "dgnsAnsOrd": 2,
+          "dgnsScore": 2.0
+        },
+        {
+          "dgnsAnsId": 221,
+          "dgnsAskId": 48,
+          "dgnsAnsCont": "5~10년 정도",
+          "dgnsAnsOrd": 3,
+          "dgnsScore": 3.0
+        },
+        {
+          "dgnsAnsId": 222,
+          "dgnsAskId": 48,
+          "dgnsAnsCont": "10년 이상",
+          "dgnsAnsOrd": 4,
+          "dgnsScore": 4.0
+        }
+      ]
+    },
+    {
+      "dgnsAskId": 49,
+      "dgnsAskCont": "사는 곳을 기준으로 하루에 얼마나 많이 태양에 노출되어 지내십니까?",
+      "dgnsTyCd": "WT",
+      "dgnsAskOrd": 10,
+      "dgnsAnsList": [
+        {
+          "dgnsAnsId": 223,
+          "dgnsAskId": 49,
+          "dgnsAnsCont": "거의 없음 :대부분 실내에 머물고 햇빛을 많이 보는 지역이 아닙니다.",
+          "dgnsAnsOrd": 1,
+          "dgnsScore": 1.0
+        },
+        {
+          "dgnsAnsId": 224,
+          "dgnsAskId": 49,
+          "dgnsAnsCont": "약간 : 햇빛이 강하지는 않으나 일반적으로 해를 보고 삽니다.",
+          "dgnsAnsOrd": 2,
+          "dgnsScore": 2.0
+        },
+        {
+          "dgnsAnsId": 225,
+          "dgnsAskId": 49,
+          "dgnsAnsCont": "중간 정도 : 꽤 햇빛에 노출되어 지냅니다.",
+          "dgnsAnsOrd": 3,
+          "dgnsScore": 3.0
+        },
+        {
+          "dgnsAnsId": 226,
+          "dgnsAskId": 49,
+          "dgnsAnsCont": "많음 : 적도부위, 햇빛이 쨍쨍한 지역에 삽니다.",
+          "dgnsAnsOrd": 4,
+          "dgnsScore": 4.0
+        }
+      ]
+    },
+    {
+      "dgnsAskId": 50,
+      "dgnsAskCont": "보기에 나이가 어느정도 되어 보입니까?",
+      "dgnsTyCd": "WT",
+      "dgnsAskOrd": 11,
+      "dgnsAnsList": [
+        {
+          "dgnsAnsId": 227,
+          "dgnsAskId": 50,
+          "dgnsAnsCont": "나이보다 1~5년정도 젊어 보임",
+          "dgnsAnsOrd": 1,
+          "dgnsScore": 1.0
+        },
+        {
+          "dgnsAnsId": 228,
+          "dgnsAskId": 50,
+          "dgnsAnsCont": "그대로의 나이로 보임",
+          "dgnsAnsOrd": 2,
+          "dgnsScore": 2.0
+        },
+        {
+          "dgnsAnsId": 229,
+          "dgnsAskId": 50,
+          "dgnsAnsCont": "5년정도 더 많아 보임",
+          "dgnsAnsOrd": 3,
+          "dgnsScore": 3.0
+        },
+        {
+          "dgnsAnsId": 230,
+          "dgnsAskId": 50,
+          "dgnsAnsCont": "5년 이상 더 많아 보임",
+          "dgnsAnsOrd": 4,
+          "dgnsScore": 4.0
+        }
+      ]
+    },
+    {
+      "dgnsAskId": 51,
+      "dgnsAskCont": "최근 5년동안 의도적이든 그렇지 않든 실외스포츠나 다른 활동 등으로 피부를 햇빛에 오래도록 노출한 적이 있습니까?",
+      "dgnsTyCd": "WT",
+      "dgnsAskOrd": 12,
+      "dgnsAnsList": [
+        {
+          "dgnsAnsId": 231,
+          "dgnsAskId": 51,
+          "dgnsAnsCont": "없습니다.",
+          "dgnsAnsOrd": 1,
+          "dgnsScore": 1.0
+        },
+        {
+          "dgnsAnsId": 232,
+          "dgnsAskId": 51,
+          "dgnsAnsCont": "한달에 한번",
+          "dgnsAnsOrd": 2,
+          "dgnsScore": 2.0
+        },
+        {
+          "dgnsAnsId": 233,
+          "dgnsAskId": 51,
+          "dgnsAnsCont": "일주일에 한번",
+          "dgnsAnsOrd": 3,
+          "dgnsScore": 3.0
+        },
+        {
+          "dgnsAnsId": 234,
+          "dgnsAskId": 51,
+          "dgnsAnsCont": "매일",
+          "dgnsAnsOrd": 4,
+          "dgnsScore": 4.0
+        }
+      ]
+    },
+    {
+      "dgnsAskId": 52,
+      "dgnsAskCont": "얼마나 자주 태닝을 받으러 다니십니까?",
+      "dgnsTyCd": "WT",
+      "dgnsAskOrd": 13,
+      "dgnsAnsList": [
+        {
+          "dgnsAnsId": 235,
+          "dgnsAskId": 52,
+          "dgnsAnsCont": "없습니다.",
+          "dgnsAnsOrd": 1,
+          "dgnsScore": 1.0
+        },
+        {
+          "dgnsAnsId": 236,
+          "dgnsAskId": 52,
+          "dgnsAnsCont": "1~5번 정도",
+          "dgnsAnsOrd": 2,
+          "dgnsScore": 2.0
+        },
+        {
+          "dgnsAnsId": 237,
+          "dgnsAskId": 52,
+          "dgnsAnsCont": "5~10번 정도",
+          "dgnsAnsOrd": 3,
+          "dgnsScore": 3.0
+        },
+        {
+          "dgnsAnsId": 238,
+          "dgnsAskId": 52,
+          "dgnsAnsCont": "많이",
+          "dgnsAnsOrd": 4,
+          "dgnsScore": 4.0
+        }
+      ]
+    },
+    {
+      "dgnsAskId": 53,
+      "dgnsAskCont": "인생을 살면서 얼마나 많이 담배를 피우십니까(또는 담배 피는 환경에 노출되어 있으십니까)?",
+      "dgnsTyCd": "WT",
+      "dgnsAskOrd": 14,
+      "dgnsAnsList": [
+        {
+          "dgnsAnsId": 239,
+          "dgnsAskId": 53,
+          "dgnsAnsCont": "없습니다.",
+          "dgnsAnsOrd": 1,
+          "dgnsScore": 1.0
+        },
+        {
+          "dgnsAnsId": 240,
+          "dgnsAskId": 53,
+          "dgnsAnsCont": "몇 보루정도",
+          "dgnsAnsOrd": 2,
+          "dgnsScore": 2.0
+        },
+        {
+          "dgnsAnsId": 241,
+          "dgnsAskId": 53,
+          "dgnsAnsCont": "여러 보루",
+          "dgnsAnsOrd": 3,
+          "dgnsScore": 3.0
+        },
+        {
+          "dgnsAnsId": 242,
+          "dgnsAskId": 53,
+          "dgnsAnsCont": "매일 담배를 핌",
+          "dgnsAnsOrd": 4,
+          "dgnsScore": 4.0
+        }
+      ]
+    },
+    {
+      "dgnsAskId": 54,
+      "dgnsAskCont": "거주하는 곳의 공기오염도는 어떻습니까?",
+      "dgnsTyCd": "WT",
+      "dgnsAskOrd": 15,
+      "dgnsAnsList": [
+        {
+          "dgnsAnsId": 243,
+          "dgnsAskId": 54,
+          "dgnsAnsCont": "맑고 깨끗합니다.",
+          "dgnsAnsOrd": 1,
+          "dgnsScore": 1.0
+        },
+        {
+          "dgnsAnsId": 244,
+          "dgnsAskId": 54,
+          "dgnsAnsCont": "말고 깨끗한 때도 있고 그렇지 않을 때도 있습니다.",
+          "dgnsAnsOrd": 2,
+          "dgnsScore": 2.0
+        },
+        {
+          "dgnsAnsId": 245,
+          "dgnsAskId": 54,
+          "dgnsAnsCont": "약간 오염되어 있습니다.",
+          "dgnsAnsOrd": 3,
+          "dgnsScore": 3.0
+        },
+        {
+          "dgnsAnsId": 246,
+          "dgnsAskId": 54,
+          "dgnsAnsCont": "공기 오염이 심합니다.",
+          "dgnsAnsOrd": 4,
+          "dgnsScore": 4.0
+        }
+      ]
+    },
+    {
+      "dgnsAskId": 55,
+      "dgnsAskCont": "레티놀, 레노바, 레틴-A, 타자로틴, 디페린, 에바쥐와 같은 비타민 페이셜 그림을 얼마나 오래 사용하셨나요?",
+      "dgnsTyCd": "WT",
+      "dgnsAskOrd": 16,
+      "dgnsAnsList": [
+        {
+          "dgnsAnsId": 247,
+          "dgnsAskId": 55,
+          "dgnsAnsCont": "수년",
+          "dgnsAnsOrd": 1,
+          "dgnsScore": 1.0
+        },
+        {
+          "dgnsAnsId": 248,
+          "dgnsAskId": 55,
+          "dgnsAnsCont": "때때로",
+          "dgnsAnsOrd": 2,
+          "dgnsScore": 2.0
+        },
+        {
+          "dgnsAnsId": 249,
+          "dgnsAskId": 55,
+          "dgnsAnsCont": "어렸을 때 여드름으로",
+          "dgnsAnsOrd": 3,
+          "dgnsScore": 3.0
+        },
+        {
+          "dgnsAnsId": 250,
+          "dgnsAskId": 55,
+          "dgnsAnsCont": "없다.",
+          "dgnsAnsOrd": 4,
+          "dgnsScore": 4.0
+        }
+      ]
+    },
+    {
+      "dgnsAskId": 56,
+      "dgnsAskCont": "얼마나 자주 과일과 채소를 드십니까?",
+      "dgnsTyCd": "WT",
+      "dgnsAskOrd": 17,
+      "dgnsAnsList": [
+        {
+          "dgnsAnsId": 251,
+          "dgnsAskId": 56,
+          "dgnsAnsCont": "매일 ",
+          "dgnsAnsOrd": 1,
+          "dgnsScore": 1.0
+        },
+        {
+          "dgnsAnsId": 252,
+          "dgnsAskId": 56,
+          "dgnsAnsCont": "하루 한번",
+          "dgnsAnsOrd": 2,
+          "dgnsScore": 2.0
+        },
+        {
+          "dgnsAnsId": 253,
+          "dgnsAskId": 56,
+          "dgnsAnsCont": "때때로",
+          "dgnsAnsOrd": 3,
+          "dgnsScore": 3.0
+        },
+        {
+          "dgnsAnsId": 254,
+          "dgnsAskId": 56,
+          "dgnsAnsCont": "안 먹음",
+          "dgnsAnsOrd": 4,
+          "dgnsScore": 4.0
+        }
+      ]
+    },
+    {
+      "dgnsAskId": 57,
+      "dgnsAskCont": "하루에 먹는 것 중에서 과일과 채소가 차지하는 비율은 얼마나 됩니까? (과일과 채소를 바로 짜서 드시는 게 아니라면 고려하지 마십시오)",
+      "dgnsTyCd": "WT",
+      "dgnsAskOrd": 18,
+      "dgnsAnsList": [
+        {
+          "dgnsAnsId": 255,
+          "dgnsAskId": 57,
+          "dgnsAnsCont": "75~100%",
+          "dgnsAnsOrd": 1,
+          "dgnsScore": 1.0
+        },
+        {
+          "dgnsAnsId": 256,
+          "dgnsAskId": 57,
+          "dgnsAnsCont": "25~75%",
+          "dgnsAnsOrd": 2,
+          "dgnsScore": 2.0
+        },
+        {
+          "dgnsAnsId": 257,
+          "dgnsAskId": 57,
+          "dgnsAnsCont": "10~15%",
+          "dgnsAnsOrd": 3,
+          "dgnsScore": 3.0
+        },
+        {
+          "dgnsAnsId": 258,
+          "dgnsAskId": 57,
+          "dgnsAnsCont": "0~10%",
+          "dgnsAnsOrd": 4,
+          "dgnsScore": 4.0
+        }
+      ]
+    },
+    {
+      "dgnsAskId": 58,
+      "dgnsAskCont": "본인의 피부색은 어떻습니까?",
+      "dgnsTyCd": "WT",
+      "dgnsAskOrd": 19,
+      "dgnsAnsList": [
+        {
+          "dgnsAnsId": 259,
+          "dgnsAskId": 58,
+          "dgnsAnsCont": "어두움",
+          "dgnsAnsOrd": 1,
+          "dgnsScore": 1.0
+        },
+        {
+          "dgnsAnsId": 260,
+          "dgnsAskId": 58,
+          "dgnsAnsCont": "중간",
+          "dgnsAnsOrd": 2,
+          "dgnsScore": 2.0
+        },
+        {
+          "dgnsAnsId": 261,
+          "dgnsAskId": 58,
+          "dgnsAnsCont": "밝음",
+          "dgnsAnsOrd": 3,
+          "dgnsScore": 3.0
+        },
+        {
+          "dgnsAnsId": 262,
+          "dgnsAskId": 58,
+          "dgnsAnsCont": "매우 밝음",
+          "dgnsAnsOrd": 4,
+          "dgnsScore": 4.0
+        }
+      ]
+    },
+    {
+      "dgnsAskId": 59,
+      "dgnsAskCont": "당신의 인종은?",
+      "dgnsTyCd": "WT",
+      "dgnsAskOrd": 20,
+      "dgnsAnsList": [
+        {
+          "dgnsAnsId": 263,
+          "dgnsAskId": 59,
+          "dgnsAnsCont": "아프리칸 어메리컨/블랙",
+          "dgnsAnsOrd": 1,
+          "dgnsScore": 1.0
+        },
+        {
+          "dgnsAnsId": 264,
+          "dgnsAskId": 59,
+          "dgnsAnsCont": "아시안",
+          "dgnsAnsOrd": 2,
+          "dgnsScore": 2.0
+        },
+        {
+          "dgnsAnsId": 265,
+          "dgnsAskId": 59,
+          "dgnsAnsCont": "라틴",
+          "dgnsAnsOrd": 3,
+          "dgnsScore": 3.0
+        },
+        {
+          "dgnsAnsId": 266,
+          "dgnsAskId": 59,
+          "dgnsAnsCont": "코가시언",
+          "dgnsAnsOrd": 4,
+          "dgnsScore": 4.0
+        }
+      ]
+    }
+  ],
+  "dgnsTyCdList": [
+    {
+      "start": null,
+      "length": null,
+      "sort": null,
+      "sortOrd": null,
+      "pagingYn": null,
+      "groupbyList": null,
+      "selectList": null,
+      "regId": null,
+      "regDt": null,
+      "updId": null,
+      "updDt": null,
+      "delId": null,
+      "delDt": null,
+      "recSt": null,
+      "cdDtlId": "OD",
+      "cdId": "dgnsTyCd",
+      "cdDtlNm": "지성(Oily) / 건성(Dry)",
+      "cdDtlLabel": "success",
+      "cdDtlDesc": null,
+      "cdDtlOrd": "1",
+      "useSt": "Y"
+    },
+    {
+      "start": null,
+      "length": null,
+      "sort": null,
+      "sortOrd": null,
+      "pagingYn": null,
+      "groupbyList": null,
+      "selectList": null,
+      "regId": null,
+      "regDt": null,
+      "updId": null,
+      "updDt": null,
+      "delId": null,
+      "delDt": null,
+      "recSt": null,
+      "cdDtlId": "SR",
+      "cdId": "dgnsTyCd",
+      "cdDtlNm": "민감성(Sensitive) / 저항성(Resistant)",
+      "cdDtlLabel": "success",
+      "cdDtlDesc": null,
+      "cdDtlOrd": "2",
+      "useSt": "Y"
+    },
+    {
+      "start": null,
+      "length": null,
+      "sort": null,
+      "sortOrd": null,
+      "pagingYn": null,
+      "groupbyList": null,
+      "selectList": null,
+      "regId": null,
+      "regDt": null,
+      "updId": null,
+      "updDt": null,
+      "delId": null,
+      "delDt": null,
+      "recSt": null,
+      "cdDtlId": "PN",
+      "cdId": "dgnsTyCd",
+      "cdDtlNm": "색소침착(Pigmented) / 비색소성(Non Pigmented)",
+      "cdDtlLabel": "success",
+      "cdDtlDesc": null,
+      "cdDtlOrd": "3",
+      "useSt": "Y"
+    },
+    {
+      "start": null,
+      "length": null,
+      "sort": null,
+      "sortOrd": null,
+      "pagingYn": null,
+      "groupbyList": null,
+      "selectList": null,
+      "regId": null,
+      "regDt": null,
+      "updId": null,
+      "updDt": null,
+      "delId": null,
+      "delDt": null,
+      "recSt": null,
+      "cdDtlId": "WT",
+      "cdId": "dgnsTyCd",
+      "cdDtlNm": "주름진(Winkled) / 탱탱한(Tight)",
+      "cdDtlLabel": "success",
+      "cdDtlDesc": null,
+      "cdDtlOrd": "4",
+      "useSt": "Y"
+    }
+  ]
+}

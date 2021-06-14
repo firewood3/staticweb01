@@ -1,0 +1,45 @@
+.mina__wrapper {
+
+}
+
+.common__code__top {
+  text-align: center;
+}
+
+.common__code__top .title {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.common__code__top .btn__add {
+  display: inline-block;
+}
+
+.code__dtl__top {
+  margin-top: 50px;
+}
+
+.code__table {
+
+}
+.code__table table {
+  width: 100%;
+}
+
+.code__table tbody td, thead th {
+  /*width: 20%;  !* Optional *!*/
+}
+.code__table thead {
+  display: block;
+  /*width:100%;*/
+}
+.code__table tbody {
+  display:block;
+  overflow:auto;
+  height:200px;
+  /*width:100%;*/
+}
+
+/*.code__table {*/
+
+/*}*/

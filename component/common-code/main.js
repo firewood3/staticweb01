@@ -1,7 +1,7 @@
 // var _ = require('lodash');
-var app = app || {};
+var commonCode = commonCode || {};
 
-app.commonCode = (function () {
+commonCode = (function () {
 
   var codeArr = [
     {cdId: 'tree', type: 'A', description: '나무'},
@@ -31,27 +31,36 @@ app.commonCode = (function () {
   var codeTypes = ['A', 'B', 'C'];
 
   return {
-    codeArr: codeArr,
-    codeTypes: codeTypes
+    readCodeTypes: function () {
+      return _.cloneDeep(codeTypes);
+    },
+    readCodeArr: function () {
+      return _.cloneDeep(codeArr);
+    },
+    readCodeDtlArr: function () {
+      return _.cloneDeep(codeDtlArr);
+    },
+    insertCode: function (code) {
+      codeArr.push(code);
+    },
+    insertCodeDtl: function (codeDtl) {
+      codeDtlArr.push(codeDtl);
+    },
+    updateCode: function (code) {
+      var index = _.findIndex(codeArr, {cdId: code.cdId});
+      codeArr[index] = code;
+    },
+    updateCodeDtl: function (codeDtl) {
+      var index = _.findIndex(codeDtlArr, {cdId: codeDtl.cdId, cdDtlId: codeDtl.cdDtlId});
+      codeDtlArr[index] = codeDtl;
+    },
+    deleteCode: function (code) {
+      var index = _.findIndex(codeArr, {cdId: code.cdId});
+      codeArr.splice(index, 1);
+    },
+    deleteCodeDtl: function (codeDtl) {
+      var index = _.findIndex(codeDtlArr, {cdId: codeDtl.cdId, cdDtlId: codeDtl.cdDtlId});
+      codeDtlArr.splice(index, 1);
+    },
   };
 }());
-
-app.inset = function (code) {
-  this.commonCode.codeArr.push(code);
-};
-app.update = function (code) {
-  var index = _.findIndex(this.commonCode.codeArr, {cdId: code.cdId, cdDtlId: code.cdDtlId});
-  this.commonCode.codeArr[index] = code;
-};
-app.delete = function (code) {
-  var codeArr = this.commonCode.codeArr;
-  var index = _.findIndex(codeArr, code);
-  console.log(index)
-  codeArr.splice(index, 1);
-};
-
-
-console.log(app.commonCode.codeArr);
-app.delete({cdId: 'fish', cdDtlId: 'haddock'});
-app.update({cdId: 'fish', cdDtlId: 'swordfish', description: 'dd'})
-console.log(app.commonCode.codeArr);

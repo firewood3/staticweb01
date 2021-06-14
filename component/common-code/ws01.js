@@ -1,51 +1,85 @@
 var _ = require('lodash');
-var app = app || {};
+var commonCode = commonCode || {};
 
-app.commonCode = (function () {
+commonCode = (function () {
 
   var codeArr = [
-    {cdId: 'tree', cdDtlId: 'pine', type: 'A', description: '소나무'},
-    {cdId: 'tree', cdDtlId: 'maple', type: 'A', description: ''},
-    {cdId: 'tree', cdDtlId: 'cherry', type: 'C', description: ''},
-    {cdId: 'tree', cdDtlId: 'beech', type: 'A', description: ''},
-    {cdId: 'tree', cdDtlId: 'bamboo', type: 'B', description: ''},
-    {cdId: 'insect', cdDtlId: 'ladybird', type: 'A', description: ''},
-    {cdId: 'insect', cdDtlId: 'larva', type: 'B', description: ''},
-    {cdId: 'insect', cdDtlId: 'fly', type: 'A', description: ''},
-    {cdId: 'insect', cdDtlId: 'hornet', type: 'B', description: ''},
-    {cdId: 'insect', cdDtlId: 'caterpillar', type: 'B', description: ''},
-    {cdId: 'fish', cdDtlId: 'bonito', type: 'C', description: '가다랑어'},
-    {cdId: 'fish', cdDtlId: 'carp', type: 'C', description: '잉어'},
-    {cdId: 'fish', cdDtlId: 'haddock', type: 'B', description: '대구'},
-    {cdId: 'fish', cdDtlId: 'trout', type: 'C', description: '송어'},
-    {cdId: 'fish', cdDtlId: 'swordfish', type: 'C', description: '황새치'},
+    {cdId: 'tree', type: 'A', description: '나무'},
+    {cdId: 'insect', type: 'A', description: '곤충'},
+    {cdId: 'fish', type: 'C', description: '물고기'},
+    {cdId: 'bird', type: 'B', description: '새'},
+  ];
+
+  var codeDtlArr = [
+    {cdId: 'tree', cdDtlId: 'pine', description: '소나무'},
+    {cdId: 'tree', cdDtlId: 'maple', description: ''},
+    {cdId: 'tree', cdDtlId: 'cherry',description: ''},
+    {cdId: 'tree', cdDtlId: 'beech', description: ''},
+    {cdId: 'tree', cdDtlId: 'bamboo', description: ''},
+    {cdId: 'insect', cdDtlId: 'ladybird', description: ''},
+    {cdId: 'insect', cdDtlId: 'larva', description: ''},
+    {cdId: 'insect', cdDtlId: 'fly', description: ''},
+    {cdId: 'insect', cdDtlId: 'hornet', description: ''},
+    {cdId: 'insect', cdDtlId: 'caterpillar', description: ''},
+    {cdId: 'fish', cdDtlId: 'bonito', description: '가다랑어'},
+    {cdId: 'fish', cdDtlId: 'carp', description: '잉어'},
+    {cdId: 'fish', cdDtlId: 'haddock', description: '대구'},
+    {cdId: 'fish', cdDtlId: 'trout', description: '송어'},
+    {cdId: 'fish', cdDtlId: 'swordfish', description: '황새치'},
   ];
 
   var codeTypes = ['A', 'B', 'C'];
 
   return {
-    codeArr: codeArr,
-    codeTypes: codeTypes
+    readCodeTypes: function () {
+      return _.cloneDeep(codeTypes);
+    },
+    readCodeArr: function () {
+      return _.cloneDeep(codeArr);
+    },
+    readCodeDtlArr: function () {
+      return _.cloneDeep(codeDtlArr);
+    },
+    insertCode: function (code) {
+      codeArr.push(code);
+    },
+    insertCodeDtl: function (codeDtl) {
+      codeDtlArr.push(codeDtl);
+    },
+    updateCode: function (code) {
+      var index = _.findIndex(codeArr, {cdId: code.cdId});
+      codeArr[index] = code;
+    },
+    updateCodeDtl: function (codeDtl) {
+      var index = _.findIndex(codeDtlArr, {cdId: codeDtl.cdId, cdDtlId: codeDtl.cdDtlId});
+      codeDtlArr[index] = codeDtl;
+    },
+    deleteCode: function (code) {
+      var index = _.findIndex(codeArr, {cdId: code.cdId});
+      codeArr.splice(index, 1);
+    },
+    deleteCodeDtl: function (codeDtl) {
+      var index = _.findIndex(codeDtlArr, {cdId: codeDtl.cdId, cdDtlId: codeDtl.cdDtlId});
+      codeDtlArr.splice(index, 1);
+    },
   };
 }());
 
-app.inset = function (code) {
-  this.commonCode.codeArr.push(code);
-};
-app.update = function (code) {
-  var index = _.findIndex(this.commonCode.codeArr, {cdId: code.cdId, cdDtlId: code.cdDtlId});
-  this.commonCode.codeArr[index] = code;
-};
-app.delete = function (code) {
-  var codeArr = this.commonCode.codeArr;
-  var index = _.findIndex(codeArr, code);
-  console.log(index)
-  codeArr.splice(index, 1);
-};
+
+console.log(commonCode.readCodeArr());
+commonCode.insertCode({cdId: 'lebron'});
+console.log(commonCode.readCodeArr());
+commonCode.updateCode({cdId: 'lebron', description: '르브론 제임스'});
+console.log(commonCode.readCodeArr());
+commonCode.deleteCode({cdId: 'lebron'});
+console.log(commonCode.readCodeArr());
 
 
-console.log(app.commonCode.codeArr);
-app.delete({cdId: 'fish', cdDtlId: 'haddock'});
-app.update({cdId: 'fish', cdDtlId: 'swordfish', description: 'dd'})
-console.log(app.commonCode.codeArr);
-console.log(app.commonCode.codeArr.length);
+console.log(commonCode.readCodeDtlArr());
+commonCode.insertCodeDtl({cdId: 'lebron', cdDtlId: 'james'});
+console.log(commonCode.readCodeDtlArr());
+commonCode.updateCodeDtl({cdId: 'lebron', cdDtlId: 'james', description: '르브론 제임스 Lakers'});
+console.log(commonCode.readCodeDtlArr());
+commonCode.deleteCodeDtl({cdId: 'lebron', cdDtlId: 'james'});
+console.log(commonCode.readCodeDtlArr());
+

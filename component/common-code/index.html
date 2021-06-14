@@ -14,39 +14,85 @@
   <script src="main.js"></script>
 </head>
 <body>
-    <h2>공통 코드 관리</h2>
+<div class="common__code__top">
+  <h2 class="h2 title">공통 코드 관리</h2>
+  <button id="commonCodeAddBtn" type="button" class="btn btn-primary btn__add">추가</button>
+</div>
 
-    <div>
-      <table class="table">
-        <thead>
-        <tr>
-          <th scope="col">#</th>
-          <th scope="col">First</th>
-          <th scope="col">Last</th>
-          <th scope="col">Handle</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr>
-          <th scope="row">1</th>
-          <td>Mark</td>
-          <td>Otto</td>
-          <td>@mdo</td>
-        </tr>
-        <tr>
-          <th scope="row">2</th>
-          <td>Jacob</td>
-          <td>Thornton</td>
-          <td>@fat</td>
-        </tr>
-        <tr>
-          <th scope="row">3</th>
-          <td>Larry</td>
-          <td>the Bird</td>
-          <td>@twitter</td>
-        </tr>
-        </tbody>
-      </table>
+<!-- code table -->
+<div>
+  <table class="table">
+    <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">공통 코드 ID</th>
+      <th scope="col">코드 타입</th>
+      <th scope="col">코드 설명</th>
+      <th scope="col">기능</th>
+    </tr>
+    </thead>
+    <tbody id="commonCodeTableBody">
+    <tr>
+      <th scope="row">1</th>
+      <td>Mark</td>
+      <td>Otto</td>
+      <td>@mdo</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Jacob</td>
+      <td>Thornton</td>
+      <td>@fat</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td>Larry</td>
+      <td>the Bird</td>
+      <td>@twitter</td>
+    </tr>
+    </tbody>
+  </table>
+</div>
+
+<!-- code insert modal -->
+<div>
+  <!-- Modal -->
+  <div class="modal fade" id="commonCodeAddModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="input-group mb-3">
+            <div class="input-group-prepend">
+              <span class="input-group-text" id="commonCodeAddModal-span1">공통 코드 ID</span>
+            </div>
+            <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="commonCodeAddModal-span1">
+          </div>
+          <div class="input-group mb-3">
+            <div class="input-group-prepend">
+              <span class="input-group-text" id="commonCodeAddModal-span2">코드 타입</span>
+            </div>
+            <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="commonCodeAddModal-span2">
+          </div>
+          <div class="input-group mb-3">
+            <div class="input-group-prepend">
+              <span class="input-group-text" id="commonCodeAddModal-span3">코드 설명</span>
+            </div>
+            <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="commonCodeAddModal-span3">
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
     </div>
+  </div>
+</div>
 </body>
 </html>

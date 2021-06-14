@@ -62,5 +62,32 @@ commonCode = (function () {
       var index = _.findIndex(codeDtlArr, {cdId: codeDtl.cdId, cdDtlId: codeDtl.cdDtlId});
       codeDtlArr.splice(index, 1);
     },
+    drawCodeTable: function ($root) {
+      $root.empty();
+      codeArr.forEach(function (code , index) {
+        var $tr = $('<tr></tr>')
+          .append($('<th>'+index+'</th>'))
+          .append($('<td>'+code.cdId+'</td>'))
+          .append($('<td>'+code.type+'</td>'))
+          .append($('<td>'+code.description+'</td>'));
+
+        $root.append($tr);
+
+        var $func = $('<td></td>')
+          .append($('<button class="btn btn-outline-success">수정</button>'))
+          .append($('<button class="btn btn-outline-success">코드세부</button>'))
+          .append($('<button class="btn btn-outline-warning">삭제</button>'))
+        $tr.append($func)
+      });
+    }
   };
 }());
+
+$(document).ready(function () {
+  commonCode.drawCodeTable($('#commonCodeTableBody'));
+
+  $('#commonCodeAddBtn').click(function () {
+    console.log('click');
+    $('#commonCodeAddModal').modal('show');
+  });
+});

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <link rel="stylesheet" href="/lib/boostrap/bootstrap-4.6.0-dist/css/bootstrap.min.css" type="text/css">
+  <link rel="stylesheet" href="/lib/boostrap/icons-1.3.0/font/bootstrap-icons.css" type="text/css">
+  <link rel="stylesheet" href="main.css" type="text/css">
+
+  <script src="/lib/jquery/jquery-3.5.1/jquery.min.js"></script>
+  <script src="/lib/popper/popper-1.16.1/popper.min.js"></script>
+  <script src="/lib/boostrap/bootstrap-4.6.0-dist/js/bootstrap.min.js"></script>
+  <script src="/lib/lodash/lodash.min.js"></script>
+</head>
+<body>
+<div class="common__code__top">
+  <h2 class="h2 title">코드 관리</h2>
+  <button id="codeModalShowBtn" type="button" class="btn btn-primary btn__add">추가</button>
+</div>
+
+<!-- code table -->
+<div class="code__table">
+  <table class="table">
+    <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">공통 코드 ID</th>
+      <th scope="col">코드 타입</th>
+      <th scope="col">코드 설명</th>
+      <th scope="col">기능</th>
+    </tr>
+    </thead>
+    <tbody id="codeTableBody" class="code__table">
+    <tr>
+      <th scope="row">1</th>
+      <td>Mark</td>
+      <td>Otto</td>
+      <td>@mdo</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Jacob</td>
+      <td>Thornton</td>
+      <td>@fat</td>
+    </tr>
+    </tbody>
+  </table>
+</div>
+
+<!-- code insert modal -->
+<div>
+  <!-- Modal -->
+  <div class="modal fade" id="codeModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="input-group mb-3">
+            <div class="input-group-prepend">
+              <span class="input-group-text" id="commonCodeAddModal-span1">공통 코드 ID</span>
+            </div>
+            <input id="codeId" type="text" class="form-control" aria-label="Sizing example input" aria-describedby="commonCodeAddModal-span1">
+          </div>
+          <div class="input-group mb-3">
+            <div class="input-group-prepend">
+              <span class="input-group-text" id="commonCodeAddModal-span2">코드 타입</span>
+            </div>
+            <input id="codeType" type="text" class="form-control" aria-label="Sizing example input" aria-describedby="commonCodeAddModal-span2">
+          </div>
+          <div class="input-group mb-3">
+            <div class="input-group-prepend">
+              <span class="input-group-text" id="commonCodeAddModal-span3">코드 설명</span>
+            </div>
+            <textarea id="codeDescription" class="form-control" rows="3" aria-describedby="commonCodeAddModal-span3"></textarea>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">닫기</button>
+          <button id="codeModalCodeAddBtn" type="button" class="btn btn-primary">추가</button>
+          <button id="codeModalCodeUpdateBtn" type="button" class="btn btn-primary">수정</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="common__code__top code__dtl__top">
+  <h2 class="h2 title">코드 상세 관리</h2>
+  <button id="codeDtlModalShowBtn" type="button" class="btn btn-primary btn__add">추가</button>
+</div>
+<!-- code dtl table -->
+<div>
+  <table class="table">
+    <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">공통 코드 ID</th>
+      <th scope="col">코드 타입</th>
+      <th scope="col">코드 설명</th>
+      <th scope="col">기능</th>
+    </tr>
+    </thead>
+    <tbody id="codeDtlTableBody">
+    </tbody>
+  </table>
+</div>
+<script src="main.js"></script>
+</body>
+</html>

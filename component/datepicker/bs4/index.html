@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <link rel="stylesheet" href="/lib/boostrap/bootstrap-4.6.0-dist/css/bootstrap.min.css" type="text/css">
+<!--  <link rel="stylesheet" href="/lib/boostrap/icons-1.3.0/font/bootstrap-icons.css" type="text/css">-->
+  <link rel="stylesheet" href="/lib/fontawesome/fontawesome-free-5.15.3-web/css/all.min.css" type="text/css">
+  <link rel="stylesheet" href="/lib/boostrap/datepicker/tempusdominus-bootstreap-4/5.38.0/css/tempusdominus-bootstrap-4.css" type="text/css">
+  <link rel="stylesheet" href="main.css" type="text/css">
+
+  <script src="/lib/jquery/jquery-3.5.1/jquery.min.js"></script>
+  <script src="/lib/popper/popper-1.16.1/popper.min.js"></script>
+  <script src="/lib/boostrap/bootstrap-4.6.0-dist/js/bootstrap.min.js"></script>
+  <script src="/lib/lodash/lodash.min.js"></script>
+  <script src="/lib/moment/moment-with-locales.min.js"></script>
+<!--  <script src="/lib/moment/moment.min.js"></script>-->
+  <script src="/lib/boostrap/datepicker/tempusdominus-bootstreap-4/5.38.0/js/tempusdominus-bootstrap-4.js"></script>
+</head>
+<body>
+<div class="container">
+  <div class="row">
+    <div class="col-sm-6">
+      <input type="text" class="form-control datetimepicker-input" id="datetimepicker5" data-toggle="datetimepicker" data-target="#datetimepicker5"/>
+    </div>
+    <script type="text/javascript">
+      $(function () {
+        $('#datetimepicker5').datetimepicker({
+          format: 'L',
+          locale: 'ko'
+        });
+      });
+    </script>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm-6">
+      <div class="form-group">
+        <div class="input-group date" data-target-input="nearest">
+          <input type="text" class="form-control datetimepicker-input" data-target="#datetimepicker4"/>
+          <div class="input-group-append" data-target="#datetimepicker4" data-toggle="datetimepicker">
+            <div class="input-group-text"><i class="fa fa-calendar"></i></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript">
+      $(function () {
+        $('#datetimepicker4').datetimepicker({
+          format: 'L',
+          locale: 'ko'
+        });
+      });
+    </script>
+  </div>
+</div>
+</body>
+</html>

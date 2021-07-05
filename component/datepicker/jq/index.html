@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <link type="text/css" rel="stylesheet" href="/lib/jquery/datepicker/jquery.datetimepicker.min.css">
+  <script src="/lib/jquery/jquery-3.5.1/jquery.min.js"></script>
+  <script src="/lib/jquery/datepicker/jquery.datetimepicker.full.js"></script>
+
+</head>
+<body>
+<!--https://xdsoft.net/jqplugins/datetimepicker/-->
+  <input id="startDay" name="startDay" type="text" class="form-control" maxlength="19">
+  <script>
+    jQuery.datetimepicker.setLocale('ko');
+    $('#startDay').datetimepicker({
+      format:'Y-m-d',
+      timepicker:false,
+    });
+  </script>
+</body>
+</html>

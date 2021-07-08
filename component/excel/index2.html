@@ -12,6 +12,7 @@
   <script src="/lib/lodash/lodash.min.js"></script>
   <script src="/lib/xlsx/xlsx.full.min.js"></script>
   <script src="/lib/file-saver/FileSaver.js"></script>
+  <script src="/lib/sheet-js-helper/sheet-js-helper.js"></script>
 
   <script>
     var data = [
@@ -22,31 +23,18 @@
       {'부서명': '공원녹지과', '접속수' : 5000},
     ];
 
-    function downloadExcel() {
-      var fileName = '부서별 접속통계.xlsx';
-      var sheetName = 'sheet1';
-      var workbook = XLSX.utils.book_new();
-      var worksheet = XLSX.utils.json_to_sheet(data);
-      XLSX.utils.book_append_sheet(workbook, worksheet, sheetName);
-      var excelFile = XLSX.write(workbook, {bookType: 'xlsx', type: 'binary'});
-      saveAs(new Blob([s2ab(excelFile)], {type:'application/octet-stream'}), fileName);
-
-      function s2ab(s) {
-        var buf = new ArrayBuffer(s.length); //convert s to arrayBuffer
-        var view = new Uint8Array(buf);  //create uint8array as viewer
-        for (var i=0; i<s.length; i++) view[i] = s.charCodeAt(i) & 0xFF; //convert to octet
-        return buf;
-      }
-    }
-
     $(document).ready(function() {
       $("#excelFileExport").click(function () {
-        downloadExcel();
+        sheetJsHelper.xlsxDownload(data, '부서별 접속통계');
+      });
+      $("#csvFileExport").click(function () {
+        sheetJsHelper.csvDownload(data, '부서별 접속통계');
       });
     });
   </script>
 </head>
 <body>
-부서별 접속통계 엑셀 다운로드 : <input type="button" id="excelFileExport" value="엑셀 파일 다운로드(JSON)" />
+부서별 접속통계 엑셀 다운로드 : <input type="button" id="excelFileExport" value="엑셀 파일 다운로드(JSON)" /><br>
+부서별 접속통계 CSV 다운로드 : <input type="button" id="csvFileExport" value="CSV 파일 다운로드(JSON)" />
 </body>
 </html>

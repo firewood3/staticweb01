@@ -13,21 +13,39 @@
   <script src="/lib/datatables/1.10.25/js/jquery.dataTables.min.js"></script>
   <script src="/lib/datatables/1.10.25/js/dataTables.bootstrap4.min.js"></script>
   <script src="/lib/datatables/select/1.3.3/js/dataTables.select.js"></script>
-  <script src="/lib/datatables/select/1.3.3/js/select.bootstrap4.js"></script>
+<!--  <script src="/lib/datatables/select/1.3.3/js/select.bootstrap4.js"></script>-->
   <script src="/lib/datatables/jquery-datatables-checkboxes/js/dataTables.checkboxes.js"></script>
   <script>
     var example;
     var multiSelectInfoText = '';
     $(document).ready(function() {
       example = $('#example').DataTable( {
-        "drawCallback": function() {
+        "drawCallback": function(a, b) {
+          var table = $('#example').DataTable();
+          var data =  table.rows();
+          console.log(data);
+          for (var i =0;i<data.length; i++) {
+            console.log(data[i])
+          }
+
+          $('#example tbody tr:nth-child(1)').addClass('selected');
+          $('#example tbody tr:nth-child(3)').addClass('selected');
+          $('#example tbody tr:nth-child(5) .dt-checkboxes-cell input').prop('disabled', 'true');
+
+          console.log(a);
+          console.log("test");
           $('#example_info').append('<span id="multi_select_info" class="ml-5">'+multiSelectInfoText+'</span>');
         },
         'columnDefs': [
           {
             'targets': 0,
             'checkboxes': {
-              'selectRow': true
+              'selectRow': true,
+              'selectCallback': function(a, b){
+                console.log('111');
+                console.log(a);
+                console.log(b);
+              }
             },
           }
         ],
